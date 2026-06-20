@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar/Navbar";
 import Hero from "../components/Hero/Hero";
 import Stats from "../components/Stats/Stats";
+import CompaniesTicker from "../components/CompaniesTicker/CompaniesTicker";
 import Benefits from "../components/Benefits/Benefits";
 import Profiles from "../components/Profiles/Profiles";
 import Process from "../components/Process/Process";
@@ -15,6 +16,7 @@ function Landing() {
       <Navbar />
       <Hero />
       <Stats />
+    <CompaniesTicker/>
       <Benefits />
       <Profiles />
       <Process />
