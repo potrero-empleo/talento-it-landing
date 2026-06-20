@@ -9,7 +9,7 @@ const Navbar = () => {
           <img
             src={potrero_logo}
             alt="Potrero Digital"
-            className="h-8 w-auto sm:h-9 md:h-10"
+            className="h-8 w-auto sm:h-9 md:h-12"
           />
 
           <span className="hidden text-[0.55rem] uppercase tracking-[0.12em] text-[#888888] sm:block md:text-[0.65rem] md:tracking-[0.14em]">
