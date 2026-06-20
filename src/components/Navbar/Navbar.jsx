@@ -4,7 +4,7 @@ import potrero_logo from "../../assets/potrero_logo.png";
 const Navbar = () => {
   return (
     <nav className="fixed left-0 right-0 top-0 z-[100] border-b border-[#272727] bg-[#111111]/90 backdrop-blur-2xl">
-      <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 md:px-14 md:py-5">
+  <div className="flex items-center justify-between px-6 py-4 md:px-14 md:py-5">
         <a href="#" className="flex min-w-0 flex-col gap-[1px]">
           <img
             src={potrero_logo}
