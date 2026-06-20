@@ -51,9 +51,9 @@ const Hero = () => {
 
                     {/* Desktop */}
                     <span className="hidden md:block">
-                        <span className="block">Encontrá el talento IT</span>
+                        <span className="block">Encontrá el <span className="text-[#C8D400]">talento IT</span></span>
                         <span className="block">que tu empresa</span>
-                        <span className="block text-[#C8D400]">está buscando.</span>
+                        <span className="block ">está buscando.</span>
                     </span>
                 </h1>
 
