@@ -9,6 +9,7 @@ import Companies from "../components/Companies/Companies";
 import Institutional from "../components/Institutional/Institutional";
 import CTA from "../components/CTA/CTA";
 import Footer from "../components/Footer/Footer";
+import Speakers from "../components/Speakers";
 
 function Landing() {
   return (
@@ -16,12 +17,13 @@ function Landing() {
       <Navbar />
       <Hero />
       <Stats />
-    <CompaniesTicker/>
+      <CompaniesTicker />
       <Benefits />
       <Profiles />
       <Process />
       <Companies />
       <Institutional />
+      <Speakers />
       <CTA />
       <Footer />
     </>
