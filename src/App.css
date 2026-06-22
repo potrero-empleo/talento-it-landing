@@ -209,7 +209,7 @@
   height: 28px;
 }
 
-/* Efectos de interacción Senior */
+/* Efectos de interacción */
 .whatsapp-float:hover {
   transform: translateY(-5px);
   border-color: var(--lima);

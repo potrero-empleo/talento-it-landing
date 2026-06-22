@@ -1,17 +1,30 @@
 import React from 'react';
 import '../../styles/whatsapp.css';
 
+function buildWhatsAppUrl(phone, text) {
+  // validar teléfono: solo dígitos, largo razonable (6-15)
+  if (!phone || !/^\d{6,15}$/.test(phone)) return null;
+  // limitar texto y codificar
+  const MAX_LEN = 512;
+  const safeText = encodeURIComponent((text || '').slice(0, MAX_LEN));
+  return `https://wa.me/${phone}?text=${safeText}`;
+}
+
 function WhatsappButton() {
-  // Configuración de tu link de WhatsApp
-  const TELEFONO = "5492236243013"; // Prueba con mi número. Luego remplazar por tu número (código de país + área + número, sin el + ni espacios)
-  const MENSAJE = encodeURIComponent("¡Hola! Me interesa sumar mi empresa a Talento IT. ¿Me podrían dar más información?");
-  const WHATSAPP_URL = `https://wa.me/${TELEFONO}?text=${MENSAJE}`;
+  const TELEFONO = "5492236243013";
+  const MENSAJE = "¡Hola! Me interesa sumar mi empresa a Talento IT. ¿Me podrían dar más información?";
+  const WHATSAPP_URL = buildWhatsAppUrl(TELEFONO, MENSAJE);
+
+  if (!WHATSAPP_URL) {
+    // si falla validación, no renderizar el link para evitar redirecciones inseguras
+    return null;
+  }
 
   return (
-    <a 
-      href={WHATSAPP_URL} 
-      className="whatsapp-float" 
-      target="_blank" 
+    <a
+      href={WHATSAPP_URL}
+      className="whatsapp-float"
+      target="_blank"
       rel="noopener noreferrer"
       aria-label="Contactar por WhatsApp"
       title="Abrir chat de WhatsApp"

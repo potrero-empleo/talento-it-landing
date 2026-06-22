@@ -2,16 +2,20 @@ import React from 'react'
 
 const stats = [
   {
+    value: "30.000",
+    label: "Personas en la comunidad Potrero Digital",
+  },
+  {
     value: "+500",
-    label: "Perfiles IT disponibles",
+    label: "Talentos en búsqueda activa de empleo IT",
   },
   {
     value: "25+",
-    label: "Empresas convocadas",
+    label: "Empresas participantes confirmadas",
   },
   {
     value: "100%",
-    label: "Virtual y sin costo",
+    label: "Virtual · Sin costo para la empresa",
   },
   {
     value: "Federal",
@@ -21,7 +25,7 @@ const stats = [
 
 const Stats = () => {
   return (
-    <section className="grid grid-cols-2 border-y border-[#272727] bg-[#111111] md:grid-cols-4">
+    <section className="grid grid-cols-2 border-y border-[#272727] bg-[#111111] md:grid-cols-5">
       {stats.map((stat, index) => (
         <div
           key={stat.label}

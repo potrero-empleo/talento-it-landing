@@ -54,14 +54,14 @@ const Benefits = () => {
                     a la hora de decidir
                 </h2>
 
-                <p className="max-w-[560px] text-[1.05rem] leading-[1.8] text-[#aaaaaa]">
+                <p className="max-w-140 text-[1.05rem] leading-[1.8] text-[#aaaaaa]">
                     TalentoIT no es un portal de empleo más. Es un espacio donde las
                     empresas que apuestan por el talento emergente encuentran candidatos
                     que el mercado todavía no está mirando.
                 </p>
             </div>
 
-            <div className="grid gap-[2px] md:grid-cols-2 lg:grid-cols-3">
+            <div className="grid gap-0.5 md:grid-cols-2 lg:grid-cols-3">
                 {benefits.map((benefit) => {
                     const Icon = benefit.icon;
 
@@ -71,7 +71,7 @@ const Benefits = () => {
                             className="group relative border border-[#272727] bg-[#1c1c1c] px-8 py-10 transition-all duration-300 hover:border-[#C8D400]/30 hover:bg-[#202020]"
                         >
                             {/* Línea superior */}
-                            <div className="absolute left-0 top-0 h-[2px] w-0 bg-[#C8D400] transition-all duration-300 group-hover:w-full" />
+                            <div className="absolute left-0 top-0 h-0.5 w-0 bg-[#C8D400] transition-all duration-300 group-hover:w-full" />
 
                             {/* Icono */}
                             <div className="mb-6 flex h-12 w-12 items-center justify-center border border-[#2d2d2d] bg-[#151515] transition-colors duration-300 group-hover:border-[#C8D400]/30">
