@@ -66,26 +66,46 @@ const Hero = () => {
             de Argentina, sin costo y sin fricción.
           </p>
 
-          <div className="flex flex-col items-stretch gap-4 md:items-end">
-            <a
-              href="#contacto"
-              className="inline-block w-full bg-[#C8D400] px-10 py-4.5 text-center font-['Chakra_Petch'] text-[0.88rem] font-bold uppercase tracking-widest text-[#111111] transition hover:-translate-y-0.5 hover:bg-[#d9e600]"
-              aria-label="Quiero sumar mi empresa"
-            >
-              Quiero sumar mi empresa
-            </a>
+          <div className="flex flex-col items-stretch gap-4 md:items-center">
+            {/* Sponsor encima de los CTAs — mismo ancho que los botones */}
+            <div className="mb-4 w-full flex items-center justify-center">
+              <a
+                href="https://www.accenture.com/ar-es"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Sponsor — visitar"
+                className="inline-flex w-full max-w-md flex-col items-center justify-center rounded-md border border-[#272727] bg-[#0f0f0f] px-6 py-3 hover:border-[#C8D400]/30"
+              >
+                <img
+                  src="/accenture_blanco.png"
+                  alt="Sponsor"
+                  className="w-full max-w-55 h-auto object-contain"
+                  loading="lazy"
+                />
+                <span className="mt-2 text-[0.78rem] text-[#aaaaaa] text-center">
+                  Sponsor oficial
+                </span>
+              </a>
+            </div>
 
-            <a
-              href="#como-funciona"
-              className="inline-block w-full border border-[#272727] px-8 py-3.5 text-center font-['Chakra_Petch'] text-[0.82rem] uppercase tracking-[0.08em] text-[#aaaaaa] transition hover:border-[#C8D400]/30 hover:text-white"
-              aria-label="Conocer la propuesta"
-            >
-              Conocer la propuesta
-            </a>
+            {/* Botones: match width del sponsor (max-w-md). En móvil son full-width */}
+            <div className="w-full max-w-md flex flex-col items-stretch gap-4 md:items-end">
+              <a
+                href="#contacto"
+                className="inline-block w-full bg-[#C8D400] px-6 py-3.5 text-center font-['Chakra_Petch'] text-[0.88rem] font-bold uppercase tracking-widest text-[#111111] transition hover:-translate-y-0.5 hover:bg-[#d9e600]"
+                aria-label="Quiero sumar mi empresa"
+              >
+                Quiero sumar mi empresa
+              </a>
 
-            <p className="w-full text-center text-[0.72rem] tracking-[0.04em] text-[#888888]">
-              Participación sin costo · Gestionado por Potrero Digital
-            </p>
+              <a
+                href="#conocer-propuesta"
+                className="inline-block w-full border border-[#272727] px-6 py-3.5 text-center font-['Chakra_Petch'] text-[0.82rem] uppercase tracking-[0.08em] text-[#aaaaaa] transition hover:border-[#C8D400]/30 hover:text-white"
+                aria-label="Conocer la propuesta"
+              >
+                Conocer la propuesta
+              </a>
+            </div>
           </div>
         </div>
       </div>
