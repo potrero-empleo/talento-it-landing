@@ -19,11 +19,12 @@ function Landing() {
       <Stats />
       <CompaniesTicker />
       <Benefits />
+      <Speakers />
       <Profiles />
       <Process />
       <Companies />
       <Institutional />
-      <Speakers />
+      
       <CTA />
       <Footer />
     </>

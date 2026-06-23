@@ -42,10 +42,13 @@ const benefits = [
 
 const Benefits = () => {
     return (
-        <section className="bg-[#0d0d0d] px-6 py-16 md:px-14 md:py-24">
+        <section
+          id="como-participar"
+          className="bg-[#0d0d0d] px-6 py-16 md:px-14 md:py-24 scroll-mt-20"
+        >
             <div className="mb-12">
                 <p className="mb-5 flex items-center gap-3 font-['Chakra_Petch'] text-[0.7rem] uppercase tracking-[0.22em] text-[#C8D400] after:h-px after:w-10 after:bg-[#C8D400]/50 after:content-['']">
-                    Por qué participar
+                    cómo participar
                 </p>
 
                 <h2 className="mb-5 font-['Chakra_Petch'] text-[clamp(1.9rem,3.5vw,2.9rem)] font-bold leading-[1.08] text-white">
