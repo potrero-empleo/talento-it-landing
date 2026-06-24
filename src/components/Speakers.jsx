@@ -166,10 +166,11 @@ export default function Speakers() {
     <section id="speakers" className="py-12">
       <div className="mx-auto px-4 sm:px-6 lg:px-8 w-full max-w-7xl">
         <div className="text-center mb-10 md:mb-18 space-y-5">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">Roles clave que cubrimos</h2>
-          <p className="text-[#aaaaaa] max-w-2xl mx-auto">Perfiles y roles que encontrarás en nuestra comunidad.</p>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">Speakers confirmados</h2>
+          <p className="text-[#aaaaaa] max-w-2xl mx-auto">Referentes que hacen el encuentro</p>
+          <p>Líderes del ecosistema IT y de empleabilidad digital comparten su visión sobre el mercado laboral tech en Argentina. Charlas pensadas para el sector con datos, tendencias y perspectivas reales.</p>
         </div>
-
+    
         <div className="flex items-center justify-between mb-6">
           <div />
           <div className="hidden md:flex items-center gap-3">
