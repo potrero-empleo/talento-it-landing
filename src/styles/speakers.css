@@ -82,12 +82,12 @@
   margin: 0;
   font-size: 1.05rem;
   font-weight: 700;
-  color: #111;
+  color: #ffffff; /* más legible: blanco */
 }
 .spk-role {
   margin: 6px 0 0 0;
   font-size: .95rem;
-  color: #444;
+  color: #ffffff; /* más legible: blanco, igual que el nombre */
 }
 .spk-org {
   margin: 6px 0 0 0;

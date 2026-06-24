@@ -43,7 +43,7 @@ export default function CTA() {
     //   });
 
     // Mailto fallback (safe, explicit, no server needed)
-    window.location.href = `mailto:hola@potrerodigital.org?subject=${encodeURIComponent(subject)}&body=${body}`;
+    window.location.href = `mailto:potrero.empleo@compromiso.org?subject=${encodeURIComponent(subject)}&body=${body}`;
     setStatus('sent');
   };
 

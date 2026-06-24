@@ -99,7 +99,7 @@ const Hero = () => {
               </a>
 
               <a
-                href="#conocer-propuesta"
+                href="#como-participar"
                 className="inline-block w-full border border-[#272727] px-6 py-3.5 text-center font-['Chakra_Petch'] text-[0.82rem] uppercase tracking-[0.08em] text-[#aaaaaa] transition hover:border-[#C8D400]/30 hover:text-white"
                 aria-label="Conocer la propuesta"
               >

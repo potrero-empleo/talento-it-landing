@@ -32,7 +32,7 @@ export default function Footer() {
 
           <div className="text-sm">
             <p className="mb-2 text-[#aaaaaa]">Contactanos</p>
-            <p className="text-sm text-white">hola@potrerodigital.org</p>
+            <p className="text-sm text-white">potrero.empleos@compromiso.org</p>
             <p className="mt-3 text-[0.82rem] text-[#888888]">
               Síguenos en redes para novedades y convocatorias.
             </p>

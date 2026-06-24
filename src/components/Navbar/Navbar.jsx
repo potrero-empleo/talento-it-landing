@@ -55,20 +55,23 @@ const Navbar = () => {
           </a>
 
           <a
-            href="#empresas"
-            onClick={(e) => handleScroll(e, "empresas")}
+            href="#companies"
+            onClick={(e) => handleScroll(e, "companies")}
             className="hidden text-[0.82rem] tracking-[0.04em] text-[#aaaaaa] transition-colors hover:text-white md:block"
           >
             Empresas
           </a>
 
           <a
-            href="#contacto"
-            onClick={(e) => handleScroll(e, "contacto")}
-            className="inline-block whitespace-nowrap bg-[#C8D400] px-4 py-2 font-['Chakra_Petch'] text-[0.68rem] font-bold uppercase tracking-[0.08em] text-[#111111] transition hover:-translate-y-px hover:bg-[#d9e600] sm:px-5.5 sm:py-2.5 sm:text-[0.78rem] sm:tracking-widest"
+            href="https://wa.me/5492236243013?text=Hola,%20quiero%20más%20información%20sobre%20la%20feria"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-whatsapp inline-block whitespace-nowrap bg-[#C8D400] px-4 py-2 font-['Chakra_Petch'] text-[0.68rem] font-bold uppercase tracking-[0.08em] text-[#111111] transition hover:-translate-y-px hover:bg-[#d9e600] sm:px-5.5 sm:py-2.5 sm:text-[0.78rem] sm:tracking-widest"
           >
-            Quiero Participar
+            Quiero Participar!
           </a>
+
+          
         </div>
       </div>
     </nav>
