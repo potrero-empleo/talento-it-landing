@@ -1,5 +1,6 @@
 import { useRef, useState, useEffect } from "react";
 import "../styles/speakers.css";
+
 const empleabilidad = [
 	{
 		name: "Patricia Jebsen",
@@ -46,12 +47,7 @@ const empleabilidad = [
 
 	
 ];
-=======
-import { speakerProfiles } from "../data/speakersData";
->>>>>>> 9f04c113b39b22ac28db41cc76df72ca06290c1c
-=======
-import { speakerProfiles } from "../data/speakersData";
->>>>>>> 9f04c113b39b22ac28db41cc76df72ca06290c1c
+
 
 function Avatar({ name, src, altText }) {
   if (src) {
@@ -209,3 +205,4 @@ export default function Speakers() {
     </section>
   );
 }
+export default Speakers;
