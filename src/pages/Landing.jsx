@@ -17,15 +17,14 @@ function Landing() {
       <Navbar />
       <Hero />
       <Stats />
-     
       <Benefits />
       <Speakers />
       <CompaniesTicker />
       {/*<Profiles />*/}
       {/*<Process />*/}
-      <Companies />
-      <Institutional />
-      <CTA />
+      {/*<Companies />*/}
+      {/*<Institutional />*/}
+      {/*<CTA />*/}
       <Footer />
     </>
   );

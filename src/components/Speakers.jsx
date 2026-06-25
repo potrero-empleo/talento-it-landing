@@ -4,54 +4,47 @@ import "../styles/speakers.css";
 const empleabilidad = [
 	{
 		name: "Patricia Jebsen",
-		role: "Clínica de Empleabilidad",
-		org: "Empresa A",
+		role: "Referente en transformación digital y e-commerce",
+		org: "Mentora en liderazgo e innovación",
 		image: "/Perfil1.jpg",
 	},
 	{
 		name: "Sofía Jobs",
-		role: "Workshop Empleabilidad",
-		org: "Empresa B",
-		image: "/Perfil2.jpg",
-	},
-	{
-		name: "Brigitte Bergery",
-		role: "Workshop Empleabilidad",
-		org: "Rayo Empleabilizador",
-		image: "/Perfil3.jpg",
-	},
-	{
-		name: "Romina Bruscagin",
-		role: "Experta en Marketing Digital",
-		org: "Startup D",
+		role: "Especialista en talento e inserción laboral ",
+		org: "",
 		image: "/Perfil4.jpg",
 	},
 	{
+		name: "Brigitte Bergery",
+		role: "Empleabilidad y desarrollo profesional ",
+		org: "",
+		image: "/Perfil2.jpg",
+	},
+	{
+		name: "Romina Bruscagin",
+		role: "Empleabilidad y desarrollo profesional ",
+		org: "",
+		image: "/Perfil3.jpg",
+	},
+	{
 		name: "Laura Pérez Bosio",
-		role: "El poder de la red: construyendo en comunidad y multiplicando el impacto con IA",
+		role: "AI & CLOUD ARCHITECT y Graduada Potrero Digital",
 		org: "",
 		image: "/Perfil6.jpg",
 	},
-
-
-	{
+{
 		name: "Victor Maldonado",
-		role: "Ecosistema IT",
-		org: "Banco Galicia",
-		image: "/Perfilx.jpg",
+		role: "Marketing Digital",
+		org: "",
+		image: "/Perfil7.jpg",
 	},
 	{
 		name: "Axel Labruna",
-		role: "WORKSHOP DESAFÍO TÉCNICO",
-		org: "DevOps Day",
+		role: "Speaker internacional y Organizador DevOpsDays BA ",
+		org: "",
 		image: "/Perfil5.jpg",
 	},
-	{
-		name: "Gonzalo Ibañes",
-		role: "Developer Advocate",
-		org: "AWS",
-		image: "/Perfilx.jpg",
-	},
+
 	
 ];
 
@@ -168,7 +161,8 @@ export default function Speakers() {
         <div className="text-center mb-10 md:mb-18 space-y-5">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">Speakers confirmados</h2>
           <p className="text-[#aaaaaa] max-w-2xl mx-auto">Referentes que hacen el encuentro</p>
-          <p>Líderes del ecosistema IT y de empleabilidad digital comparten su visión sobre el mercado laboral tech en Argentina. Charlas pensadas para el sector con datos, tendencias y perspectivas reales.</p>
+          <p>Líderes del ecosistema IT y de empleabilidad digital comparten su visión sobre el mercado laboral tech en Argentina. 
+            Charlas pensadas para el sector con datos, tendencias y perspectivas reales.</p>
         </div>
     
         <div className="flex items-center justify-between mb-6">
