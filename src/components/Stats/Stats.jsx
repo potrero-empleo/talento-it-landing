@@ -1,27 +1,8 @@
-import React from 'react'
-
-const stats = [
-  {
-    value: "+500",
-    label: "Perfiles IT disponibles",
-  },
-  {
-    value: "25+",
-    label: "Empresas convocadas",
-  },
-  {
-    value: "100%",
-    label: "Virtual y sin costo",
-  },
-  {
-    value: "Federal",
-    label: "Talento de todo el país",
-  },
-];
+import { stats } from "../../data/statsData";
 
 const Stats = () => {
   return (
-    <section className="grid grid-cols-2 border-y border-[#272727] bg-[#111111] md:grid-cols-4">
+    <section className="grid grid-cols-2 border-y border-[#272727] bg-[#111111] md:grid-cols-5">
       {stats.map((stat, index) => (
         <div
           key={stat.label}

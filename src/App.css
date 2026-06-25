@@ -182,3 +182,61 @@
     border-right-color: var(--border);
   }
 }
+/* ── WHATSAPP FLOTANTE ── */
+.whatsapp-float {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 60px;
+  height: 60px;
+  background-color: var(--negro-card);
+  color: var(--blanco);
+  border: 1px solid var(--gris-borde);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), 
+              border-color 0.25s ease, 
+              color 0.25s ease;
+  cursor: pointer;
+}
+
+.whatsapp-icon {
+  width: 28px;
+  height: 28px;
+}
+
+/* Efectos de interacción */
+.whatsapp-float:hover {
+  transform: translateY(-5px);
+  border-color: var(--lima);
+  color: var(--lima);
+}
+
+.whatsapp-float:active {
+  transform: translateY(-2px) scale(0.95);
+}
+
+/* Responsive para pantallas chicas */
+@media (max-width: 900px) {
+  .whatsapp-float {
+    bottom: 24px;
+    right: 24px;
+    width: 52px;
+    height: 52px;
+  }
+  .whatsapp-icon {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+/* Respetar accesibilidad del usuario */
+@media (prefers-reduced-motion: reduce) {
+  .whatsapp-float:hover {
+    transform: none;
+  }
+}
