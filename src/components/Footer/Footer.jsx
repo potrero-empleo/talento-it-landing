@@ -1,4 +1,4 @@
-import React from "react";
+import { quickLinks, contactEmail } from "../../data/contactData";
 
 export default function Footer() {
   return (
@@ -16,23 +16,16 @@ export default function Footer() {
           </div>
 
           <nav aria-label="Enlaces rápidos" className="flex flex-col gap-2">
-            <a href="#como-funciona" className="text-sm hover:text-white">
-              Cómo funciona
-            </a>
-            <a href="#speakers" className="text-sm hover:text-white">
-              Speakers
-            </a>
-            <a href="#contacto" className="text-sm hover:text-white">
-              Contacto
-            </a>
-            <a href="#faq" className="text-sm hover:text-white">
-              Preguntas frecuentes
-            </a>
+            {quickLinks.map((link) => (
+              <a key={link.href} href={link.href} className="text-sm hover:text-white">
+                {link.label}
+              </a>
+            ))}
           </nav>
 
           <div className="text-sm">
             <p className="mb-2 text-[#aaaaaa]">Contactanos</p>
-            <p className="text-sm text-white">potrero.empleos@compromiso.org</p>
+            <p className="text-sm text-white">{contactEmail}</p>
             <p className="mt-3 text-[0.82rem] text-[#888888]">
               Síguenos en redes para novedades y convocatorias.
             </p>

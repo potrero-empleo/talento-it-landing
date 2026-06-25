@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*const companies = [
   "ACCENTURE",
   "MERCADO LIBRE",
@@ -56,6 +57,9 @@ const BRAND_LOGOS = [
   { id: 'naranja x', name: 'Naranja X', url: '../public/logos/NaranjaX-logo.svg' },
   { id: 'banco nacion', name: 'banco nacion', url: '../public/logos/BNA.svg' } 
 ];
+=======
+import { brandLogos } from "../../data/companiesData";
+>>>>>>> 9f04c113b39b22ac28db41cc76df72ca06290c1c
 
 function EmpresasLogos() {
   // Función para manejar errores de carga de imagen
@@ -67,7 +71,7 @@ function EmpresasLogos() {
   };
 
   return (
-    <section className="pt-22 pb-8 md:py-24">
+    <section id="companies" className="pt-22 pb-8 md:py-24 scroll-mt-20">
       <div className="mx-auto px-4 sm:px-6 lg:px-8 w-full max-w-7xl">
         
         {/* Encabezado de la sección */}
@@ -82,6 +86,7 @@ function EmpresasLogos() {
 
         {/* Grilla de Logos Mapeada Dinámicamente */}
         <div className="flex lg:grid lg:grid-cols-5 flex-wrap justify-center gap-4 lg:gap-8 items-center">
+<<<<<<< HEAD
           {BRAND_LOGOS.map((logo) => {
             // Si la URL está vacía (''), renderizamos el nombre de la empresa estilizado
             if (!logo.url) {
@@ -109,6 +114,19 @@ function EmpresasLogos() {
               />
             );
           })}
+=======
+          {brandLogos.map((logo) => (
+            <img 
+              key={logo.id}
+              src={logo.url} 
+              alt={logo.name} 
+              loading="lazy" 
+              width="113" 
+              height="45" 
+              className="block mx-auto h-10 md:h-12 w-auto object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
+            />
+          ))}
+>>>>>>> 9f04c113b39b22ac28db41cc76df72ca06290c1c
         </div>
 
       </div>

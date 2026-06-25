@@ -1,5 +1,6 @@
-import React, { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect } from "react";
 import "../styles/speakers.css";
+<<<<<<< HEAD
 
 const empleabilidad = [
 	{
@@ -47,6 +48,9 @@ const empleabilidad = [
 
 	
 ];
+=======
+import { speakerProfiles } from "../data/speakersData";
+>>>>>>> 9f04c113b39b22ac28db41cc76df72ca06290c1c
 
 function Avatar({ name, src, altText }) {
   if (src) {
@@ -179,7 +183,7 @@ export default function Speakers() {
             role="list"
             className="carousel-container flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory hide-scrollbar"
             style={{ WebkitOverflowScrolling: 'touch' }}>
-            {empleabilidad.map((p) => (
+            {speakerProfiles.map((p) => (
               <div
                 key={p.name}
                 role="listitem"

@@ -1,12 +1,5 @@
-import React, { useEffect, useState } from "react";
-
-const confirmedCompanies = [
-  "Accenture",
-  "Globant",
-  "Mercado Libre",
-  "IBM",
-  "Telecom",
-];
+import { useEffect, useState } from "react";
+import { confirmedCompanies } from "../../data/heroData";
 
 const Hero = () => {
   const [currentCompanyIndex, setCurrentCompanyIndex] = useState(0);
@@ -26,7 +19,10 @@ const Hero = () => {
     confirmedCompanies[currentCompanyIndex] || confirmedCompanies[0] || "";
 
   return (
-    <section className="relative flex min-h-screen flex-col justify-end overflow-hidden bg-[#111111] px-6 pb-20 pt-24 md:pt-40 md:px-14">
+    <section
+      id="home"
+      className="relative flex min-h-screen flex-col justify-end overflow-hidden bg-[#111111] px-6 pb-20 pt-24 md:pt-40 md:px-14"
+    >
       <div className="absolute inset-0 opacity-50">
         <div className="h-full w-full bg-[linear-gradient(#272727_1px,transparent_1px),linear-gradient(90deg,#272727_1px,transparent_1px)] bg-size-[56px_56px]" />
       </div>
@@ -91,7 +87,7 @@ const Hero = () => {
             {/* Botones: match width del sponsor (max-w-md). En móvil son full-width */}
             <div className="w-full max-w-md flex flex-col items-stretch gap-4 md:items-end">
               <a
-                href="#contacto"
+                href="#inscribite"
                 className="inline-block w-full bg-[#C8D400] px-6 py-3.5 text-center font-['Chakra_Petch'] text-[0.88rem] font-bold uppercase tracking-widest text-[#111111] transition hover:-translate-y-0.5 hover:bg-[#d9e600]"
                 aria-label="Quiero sumar mi empresa"
               >

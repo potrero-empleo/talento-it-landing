@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import { contactEmail } from "../../data/contactData";
 
 export default function CTA() {
   const [form, setForm] = useState({
@@ -28,10 +29,19 @@ export default function CTA() {
     }
 
     // Build mailto fallback
-    const subject = `Inscripción empresa - ${form.company}`;
-    const body = `Empresa: ${form.company}%0D%0AContacto: ${form.contact}%0D%0AEmail: ${form.email}%0D%0ATeléfono: ${form.phone}%0D%0AWeb: ${form.website}%0D%0A%0D%0AMensaje:%0D%0A${encodeURIComponent(
-      form.message
-    )}`;
+    const subject = encodeURIComponent(`Inscripción empresa - ${form.company}`);
+    const body = encodeURIComponent(
+      [
+        `Empresa: ${form.company}`,
+        `Contacto: ${form.contact}`,
+        `Email: ${form.email}`,
+        `Teléfono: ${form.phone}`,
+        `Web: ${form.website}`,
+        "",
+        "Mensaje:",
+        form.message,
+      ].join("\n")
+    );
 
     // Try to POST to an API endpoint if you have one (uncomment and configure)
     // fetch('/api/company-signup', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(form) })
@@ -43,7 +53,7 @@ export default function CTA() {
     //   });
 
     // Mailto fallback (safe, explicit, no server needed)
-    window.location.href = `mailto:potrero.empleo@compromiso.org?subject=${encodeURIComponent(subject)}&body=${body}`;
+    window.location.href = `mailto:${contactEmail}?subject=${subject}&body=${body}`;
     setStatus('sent');
   };
 

@@ -1,0 +1,13 @@
+export const quickLinks = [
+  { href: "#como-participar", label: "Como participar" },
+  { href: "#speakers", label: "Speakers" },
+  { href: "#companies", label: "Empresas" },
+  { href: "#inscribite", label: "Contacto" },
+];
+
+export const contactEmail = "potrero.empleo@compromiso.org";
+
+export const whatsappConfig = {
+  phone: "5492236243013",
+  text: "Hola, me interesa sumar mi empresa a Talento IT. Me podrian dar mas informacion?",
+};

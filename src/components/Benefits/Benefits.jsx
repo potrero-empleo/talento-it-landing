@@ -1,44 +1,4 @@
-import {
-    LuUsers,
-    LuBadgeCheck,
-    LuGlobe,
-    LuHandshake,
-    LuBriefcase,
-    LuSparkles,
-} from "react-icons/lu";
-
-const benefits = [
-    {
-        icon: LuUsers,
-        title: "Acceso a talento IT federal",
-        text: "Conectá con perfiles formados, motivados y disponibles en distintas provincias del país.",
-    },
-    {
-        icon: LuBadgeCheck,
-        title: "Visibilidad de marca empleadora",
-        text: "Presentá tu empresa frente a una comunidad tecnológica activa y en búsqueda de oportunidades.",
-    },
-    {
-        icon: LuHandshake,
-        title: "Cero fricción para tu equipo",
-        text: "La participación es simple: cargamos la información y tu empresa queda visible en la feria.",
-    },
-    {
-        icon: LuGlobe,
-        title: "100% virtual y sin costo",
-        text: "Participá sin logística presencial, traslados ni inversión inicial.",
-    },
-    {
-        icon: LuSparkles,
-        title: "Impacto social real",
-        text: "Sumarte también significa abrir oportunidades laborales para nuevos talentos del sector IT.",
-    },
-    {
-        icon: LuBriefcase,
-        title: "Diversidad de perfiles",
-        text: "Encontrá candidatos con distintas trayectorias: egresados, perfiles junior, reconversión y experiencia previa.",
-    },
-];
+import { benefits } from "../../data/benefitsData";
 
 const Benefits = () => {
     return (

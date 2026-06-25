@@ -3,13 +3,9 @@ import Hero from "../components/Hero/Hero";
 import Stats from "../components/Stats/Stats";
 import CompaniesTicker from "../components/CompaniesTicker/CompaniesTicker";
 import Benefits from "../components/Benefits/Benefits";
-import Profiles from "../components/Profiles/Profiles";
-import Process from "../components/Process/Process";
-import Companies from "../components/Companies/Companies";
-import Institutional from "../components/Institutional/Institutional";
+import Speakers from "../components/Speakers";
 import CTA from "../components/CTA/CTA";
 import Footer from "../components/Footer/Footer";
-import Speakers from "../components/Speakers";
 
 function Landing() {
   return (
@@ -20,11 +16,15 @@ function Landing() {
       <Benefits />
       <Speakers />
       <CompaniesTicker />
+<<<<<<< HEAD
       {/*<Profiles />*/}
       {/*<Process />*/}
       {/*<Companies />*/}
       {/*<Institutional />*/}
       {/*<CTA />*/}
+=======
+      <CTA />
+>>>>>>> 9f04c113b39b22ac28db41cc76df72ca06290c1c
       <Footer />
     </>
   );

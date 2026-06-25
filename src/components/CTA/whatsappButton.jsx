@@ -1,5 +1,5 @@
-import React from 'react';
 import '../../styles/whatsapp.css';
+import { whatsappConfig } from "../../data/contactData";
 
 function buildWhatsAppUrl(phone, text) {
   // validar teléfono: solo dígitos, largo razonable (6-15)
@@ -11,9 +11,10 @@ function buildWhatsAppUrl(phone, text) {
 }
 
 function WhatsappButton() {
-  const TELEFONO = "5492236243013";
-  const MENSAJE = "¡Hola! Me interesa sumar mi empresa a Talento IT. ¿Me podrían dar más información?";
-  const WHATSAPP_URL = buildWhatsAppUrl(TELEFONO, MENSAJE);
+  const WHATSAPP_URL = buildWhatsAppUrl(
+    whatsappConfig.phone,
+    whatsappConfig.text
+  );
 
   if (!WHATSAPP_URL) {
     // si falla validación, no renderizar el link para evitar redirecciones inseguras
