@@ -1,6 +1,7 @@
 import { useRef, useState, useEffect } from "react";
 import "../styles/speakers.css";
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 const empleabilidad = [
 	{
@@ -48,6 +49,9 @@ const empleabilidad = [
 
 	
 ];
+=======
+import { speakerProfiles } from "../data/speakersData";
+>>>>>>> 9f04c113b39b22ac28db41cc76df72ca06290c1c
 =======
 import { speakerProfiles } from "../data/speakersData";
 >>>>>>> 9f04c113b39b22ac28db41cc76df72ca06290c1c

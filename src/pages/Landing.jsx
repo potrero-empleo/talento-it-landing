@@ -17,12 +17,15 @@ function Landing() {
       <Speakers />
       <CompaniesTicker />
 <<<<<<< HEAD
+<<<<<<< HEAD
       {/*<Profiles />*/}
       {/*<Process />*/}
       {/*<Companies />*/}
       {/*<Institutional />*/}
       {/*<CTA />*/}
 =======
+=======
+>>>>>>> 9f04c113b39b22ac28db41cc76df72ca06290c1c
       <CTA />
 >>>>>>> 9f04c113b39b22ac28db41cc76df72ca06290c1c
       <Footer />

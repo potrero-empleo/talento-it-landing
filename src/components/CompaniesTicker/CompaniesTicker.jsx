@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*const companies = [
   "ACCENTURE",
   "MERCADO LIBRE",
@@ -60,6 +61,9 @@ const BRAND_LOGOS = [
 =======
 import { brandLogos } from "../../data/companiesData";
 >>>>>>> 9f04c113b39b22ac28db41cc76df72ca06290c1c
+=======
+import { brandLogos } from "../../data/companiesData";
+>>>>>>> 9f04c113b39b22ac28db41cc76df72ca06290c1c
 
 function EmpresasLogos() {
   // Función para manejar errores de carga de imagen
@@ -86,6 +90,7 @@ function EmpresasLogos() {
 
         {/* Grilla de Logos Mapeada Dinámicamente */}
         <div className="flex lg:grid lg:grid-cols-5 flex-wrap justify-center gap-4 lg:gap-8 items-center">
+<<<<<<< HEAD
 <<<<<<< HEAD
           {BRAND_LOGOS.map((logo) => {
             // Si la URL está vacía (''), renderizamos el nombre de la empresa estilizado
@@ -115,6 +120,8 @@ function EmpresasLogos() {
             );
           })}
 =======
+=======
+>>>>>>> 9f04c113b39b22ac28db41cc76df72ca06290c1c
           {brandLogos.map((logo) => (
             <img 
               key={logo.id}
