@@ -1,8 +1,5 @@
 import { useRef, useState, useEffect } from "react";
 import "../styles/speakers.css";
-<<<<<<< HEAD
-<<<<<<< HEAD
-
 const empleabilidad = [
 	{
 		name: "Patricia Jebsen",
