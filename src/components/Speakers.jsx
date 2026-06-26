@@ -52,11 +52,13 @@ function SpeakerCard({ person }) {
 }
 
 export default function Speakers() {
+  const sectionRef = useRef(null);
   const carouselRef = useRef(null);
   const [canPrev, setCanPrev] = useState(false);
   const [canNext, setCanNext] = useState(true);
   const [visible, setVisible] = useState(3);
   const [isPaused, setIsPaused] = useState(false);
+  const [isInView, setIsInView] = useState(false);
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
   const autoplayRef = useRef(null);
   const pauseRef = useRef(false);
@@ -103,6 +105,27 @@ export default function Speakers() {
     return () => mediaQuery.removeEventListener("change", syncMotionPreference);
   }, []);
 
+  useEffect(() => {
+    const node = sectionRef.current;
+    if (!node) return undefined;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        const visibleNow = entry.isIntersecting;
+        setIsInView(visibleNow);
+
+        if (visibleNow && carouselRef.current && carouselRef.current.scrollLeft < 8) {
+          carouselRef.current.scrollTo({ left: 0, behavior: "auto" });
+        }
+      },
+      { threshold: 0.35 }
+    );
+
+    observer.observe(node);
+
+    return () => observer.disconnect();
+  }, []);
+
   const scrollByPage = (direction = 1) => {
     const el = carouselRef.current;
     if (!el) return;
@@ -111,19 +134,32 @@ export default function Speakers() {
     const gap = parseInt(gapStyle, 10) || 16;
     const slideW = first ? first.getBoundingClientRect().width : el.clientWidth;
     const amount = Math.round(slideW + gap) * direction;
+    const maxScrollLeft = Math.max(el.scrollWidth - el.clientWidth, 0);
+    const nextScrollLeft = el.scrollLeft + amount;
+
+    if (direction > 0 && nextScrollLeft >= maxScrollLeft - 10) {
+      el.scrollTo({ left: 0, behavior: "smooth" });
+      return;
+    }
+
+    if (direction < 0 && nextScrollLeft <= 10) {
+      el.scrollTo({ left: maxScrollLeft, behavior: "smooth" });
+      return;
+    }
+
     el.scrollBy({ left: amount, behavior: 'smooth' });
   };
 
   // Autoplay
   useEffect(() => {
-    if (prefersReducedMotion || isPaused) return undefined;
+    if (prefersReducedMotion || isPaused || !isInView) return undefined;
 
     autoplayRef.current = setInterval(() => {
       if (!pauseRef.current) scrollByPage(1);
     }, 3000);
 
     return () => clearInterval(autoplayRef.current);
-  }, [visible, isPaused, prefersReducedMotion]);
+  }, [visible, isPaused, prefersReducedMotion, isInView]);
 
   const onMouseEnter = () => (pauseRef.current = true);
   const onMouseLeave = () => (pauseRef.current = false);
@@ -133,6 +169,7 @@ export default function Speakers() {
 
   return (
     <section
+      ref={sectionRef}
       id="speakers"
       className="py-14 md:py-18"
       style={{ scrollMarginTop: "96px" }}
