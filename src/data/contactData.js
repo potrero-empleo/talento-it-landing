@@ -1,7 +1,7 @@
 export const quickLinks = [
-  { href: "#como-participar", label: "Como participar" },
-  { href: "#speakers", label: "Speakers" },
+  { href: "#como-participar", label: "Propuesta" },
   { href: "#companies", label: "Empresas" },
+  { href: "#speakers", label: "Speakers" },
   { href: "#inscribite", label: "Contacto" },
 ];
 

@@ -95,4 +95,59 @@
   color: #777;
 }
 
+.carousel-container {
+  padding: 0 2px 18px;
+  scroll-padding-inline: 6px;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(200, 212, 0, 0.75) rgba(255, 255, 255, 0.12);
+}
 
+.carousel-container::-webkit-scrollbar {
+  height: 10px;
+}
+
+.carousel-container::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+}
+
+.carousel-container::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, rgba(200, 212, 0, 0.92), rgba(170, 183, 0, 0.92));
+  border-radius: 999px;
+  border: 2px solid rgba(20, 20, 20, 0.9);
+}
+
+.carousel-container::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(90deg, rgba(214, 226, 0, 1), rgba(184, 197, 0, 1));
+}
+
+.speaker-slide {
+  flex: 0 0 min(86vw, 320px);
+}
+
+@media (min-width: 640px) {
+  .speaker-slide {
+    flex-basis: min(calc((100% - 1.5rem) / 2), 360px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .speaker-slide {
+    flex-basis: min(calc((100% - 3rem) / 3), 380px);
+  }
+}
+
+@media (max-width: 640px) {
+  .carousel-container::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  .spk-name {
+    font-size: 1rem;
+  }
+
+  .spk-role {
+    font-size: 0.92rem;
+    line-height: 1.55;
+  }
+}

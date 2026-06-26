@@ -1,4 +1,4 @@
-import potrero_logo from "../../assets/potrero_logo.png";
+import potreroEmpleosLogo from "../../assets/_potreroempleos.png";
 import { whatsappConfig } from "../../data/contactData";
 
 const Navbar = () => {
@@ -10,30 +10,37 @@ const Navbar = () => {
     e.preventDefault();
     const el = document.getElementById(id);
     if (el) {
-      el.scrollIntoView({ behavior: "smooth", block: "start" });
-      // actualizar hash sin recargar
+      const nav = document.querySelector("nav");
+      const navHeight = nav?.offsetHeight ?? 0;
+      const targetY = el.getBoundingClientRect().top + window.scrollY - navHeight - 12;
+
+      window.scrollTo({
+        top: Math.max(targetY, 0),
+        behavior: "smooth",
+      });
+
       window.history.replaceState(null, "", `#${id}`);
-      // opcional: mover foco al elemento para accesibilidad
       el.setAttribute("tabindex", "-1");
-      el.focus();
+      window.setTimeout(() => {
+        el.focus({ preventScroll: true });
+      }, 450);
     } else {
-      // fallback: navegar al hash (útil si la sección está en otra ruta)
       window.location.href = `#${id}`;
     }
   };
 
   return (
     <nav className="fixed left-0 right-0 top-0 z-100 border-b border-[#272727] bg-[#111111]/90 backdrop-blur-2xl">
-      <div className="flex items-center justify-between px-6 py-4 md:px-14 md:py-5">
+      <div className="layout-container flex items-center justify-between py-4 md:py-5">
         <a
           href="#home"
           onClick={(e) => handleScroll(e, "home")}
-          className="flex min-w-0 flex-col gap-px"
+          className="focus-ring flex min-w-0 flex-col gap-px items-start"
         >
           <img
-            src={potrero_logo}
-            alt="Potrero Digital"
-            className="h-8 w-auto sm:h-9 md:h-12"
+            src={potreroEmpleosLogo}
+            alt="Potrero Empleos"
+            className="h-6.5 w-auto max-w-[150px] object-contain sm:h-7 sm:max-w-[165px] md:h-12 md:max-w-[185px]"
           />
 
           <span className="hidden text-[0.55rem] uppercase tracking-[0.12em] text-[#888888] sm:block md:text-[0.65rem] md:tracking-[0.14em]">
@@ -45,7 +52,7 @@ const Navbar = () => {
           <a
             href="#como-participar"
             onClick={(e) => handleScroll(e, "como-participar")}
-            className="hidden text-[0.82rem] tracking-[0.04em] text-[#aaaaaa] transition-colors hover:text-white md:block"
+            className="focus-ring hidden text-[0.82rem] tracking-[0.04em] text-[#aaaaaa] transition-colors duration-200 hover:text-[#C8D400] md:block"
           >
             Cómo participar
           </a>
@@ -53,7 +60,7 @@ const Navbar = () => {
           <a
             href="#speakers"
             onClick={(e) => handleScroll(e, "speakers")}
-            className="hidden text-[0.82rem] tracking-[0.04em] text-[#aaaaaa] transition-colors hover:text-white md:block"
+            className="focus-ring hidden text-[0.82rem] tracking-[0.04em] text-[#aaaaaa] transition-colors duration-200 hover:text-[#C8D400] md:block"
           >
             Speakers
           </a>
@@ -61,7 +68,7 @@ const Navbar = () => {
           <a
             href="#companies"
             onClick={(e) => handleScroll(e, "companies")}
-            className="hidden text-[0.82rem] tracking-[0.04em] text-[#aaaaaa] transition-colors hover:text-white md:block"
+            className="focus-ring hidden text-[0.82rem] tracking-[0.04em] text-[#aaaaaa] transition-colors duration-200 hover:text-[#C8D400] md:block"
           >
             Empresas
           </a>
@@ -70,7 +77,8 @@ const Navbar = () => {
             href={whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-whatsapp inline-block whitespace-nowrap bg-[#C8D400] px-4 py-2 font-['Chakra_Petch'] text-[0.68rem] font-bold uppercase tracking-[0.08em] text-[#111111] transition hover:-translate-y-px hover:bg-[#d9e600] sm:px-5.5 sm:py-2.5 sm:text-[0.78rem] sm:tracking-widest"
+            className="btn-whatsapp focus-ring inline-block whitespace-nowrap bg-[#C8D400] px-4 py-2 font-['Chakra_Petch'] text-[0.82rem] font-bold uppercase tracking-[0.06em] text-[#111111] transition hover:-translate-y-px hover:bg-[#d9e600] sm:px-5.5 sm:py-2.5 sm:text-[0.9rem]"
+            aria-label="Quiero participar por WhatsApp"
           >
             Quiero Participar!
           </a>
@@ -83,4 +91,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-

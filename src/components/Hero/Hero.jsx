@@ -21,7 +21,8 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative flex min-h-screen flex-col justify-end overflow-hidden bg-[#111111] px-6 pb-20 pt-24 md:pt-40 md:px-14"
+      className="relative flex min-h-screen flex-col justify-end overflow-hidden bg-[#111111] pb-20 pt-24 md:pt-40"
+      style={{ scrollMarginTop: "96px" }}
     >
       <div className="absolute inset-0 opacity-50">
         <div className="h-full w-full bg-[linear-gradient(#272727_1px,transparent_1px),linear-gradient(90deg,#272727_1px,transparent_1px)] bg-size-[56px_56px]" />
@@ -29,17 +30,17 @@ const Hero = () => {
 
       <div className="pointer-events-none absolute -bottom-25 -right-25 h-175 w-175 bg-[radial-gradient(circle,rgba(200,212,0,0.15)_0%,transparent_65%)]" />
 
-      <div className="relative z-10">
+      <div className="layout-container relative z-10">
         <div className="mb-10 inline-flex items-center gap-2.5 border border-[#272727] bg-[#1c1c1c] px-4 py-2">
           <div className="h-1.5 w-1.5 shrink-0 rounded-full bg-[#C8D400] animate-pulse" />
 
-          <span className="font-['Chakra_Petch'] text-[0.72rem] uppercase tracking-[0.12em] text-[#aaaaaa]">
+          <span className="font-['Chakra_Petch'] text-[0.78rem] uppercase tracking-[0.08em] text-[#aaaaaa]">
             <strong className="text-white">{currentCompany}</strong>{" "}
             ya confirmó su participación — sumá tu empresa
           </span>
         </div>
 
-        <h1 className="mb-9 font-['Chakra_Petch'] text-[clamp(3rem,7vw,5.8rem)] font-bold leading-[0.95] tracking-[-0.02em] text-white">
+        <h1 className="mb-9 font-['Chakra_Petch'] text-[clamp(3rem,7vw,5.6rem)] font-bold leading-[0.9] tracking-[0.01em] text-white">
           {/* Mobile */}
           <span className="block md:hidden">
             Encontrá el <span className="text-[#C8D400]">talento IT</span>
@@ -69,12 +70,12 @@ const Hero = () => {
                 href="https://www.accenture.com/ar-es"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Sponsor — visitar"
-                className="inline-flex w-full max-w-md flex-col items-center justify-center rounded-md border border-[#272727] bg-[#0f0f0f] px-6 py-3 hover:border-[#C8D400]/30"
+                aria-label="Accenture, sponsor oficial. Abrir sitio externo"
+                className="focus-ring inline-flex w-full max-w-md flex-col items-center justify-center rounded-md border border-[#272727] bg-[#0f0f0f] px-6 py-3 hover:border-[#C8D400]/30"
               >
                 <img
                   src="/accenture_blanco.png"
-                  alt="Sponsor"
+                  alt="Accenture"
                   className="w-full max-w-55 h-auto object-contain"
                   loading="lazy"
                 />
@@ -88,7 +89,7 @@ const Hero = () => {
             <div className="w-full max-w-md flex flex-col items-stretch gap-4 md:items-end">
               <a
                 href="#inscribite"
-                className="inline-block w-full bg-[#C8D400] px-6 py-3.5 text-center font-['Chakra_Petch'] text-[0.88rem] font-bold uppercase tracking-widest text-[#111111] transition hover:-translate-y-0.5 hover:bg-[#d9e600]"
+                className="focus-ring inline-block w-full bg-[#C8D400] px-6 py-3.5 text-center font-['Chakra_Petch'] text-[0.92rem] font-bold uppercase tracking-[0.08em] text-[#111111] transition hover:-translate-y-0.5 hover:bg-[#d9e600]"
                 aria-label="Quiero sumar mi empresa"
               >
                 Quiero sumar mi empresa
@@ -96,7 +97,7 @@ const Hero = () => {
 
               <a
                 href="#como-participar"
-                className="inline-block w-full border border-[#272727] px-6 py-3.5 text-center font-['Chakra_Petch'] text-[0.82rem] uppercase tracking-[0.08em] text-[#aaaaaa] transition hover:border-[#C8D400]/30 hover:text-white"
+                className="focus-ring inline-block w-full border border-[#272727] px-6 py-3.5 text-center font-['Chakra_Petch'] text-[0.88rem] uppercase tracking-[0.06em] text-[#aaaaaa] transition hover:border-[#C8D400]/30 hover:text-white"
                 aria-label="Conocer la propuesta"
               >
                 Conocer la propuesta

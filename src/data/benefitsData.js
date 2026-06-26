@@ -9,33 +9,33 @@ import {
 
 export const benefits = [
   {
-    icon: LuUsers,
-    title: "Acceso a talento IT federal",
-    text: "Conecta con perfiles formados, motivados y disponibles en distintas provincias del pais.",
+    icon: LuBadgeCheck,
+    title: "Presencia frente a una comunidad activa",
+    text: "Tu empresa se muestra en un espacio donde ya hay interes real por oportunidades tech y nuevas experiencias laborales.",
   },
   {
-    icon: LuBadgeCheck,
-    title: "Visibilidad de marca empleadora",
-    text: "Presenta tu empresa frente a una comunidad tecnologica activa y en busqueda de oportunidades.",
+    icon: LuUsers,
+    title: "Llegas a perfiles con intencion de participar",
+    text: "No es trafico frio: la feria convoca personas que entran a explorar empresas, speakers y propuestas concretas.",
   },
   {
     icon: LuHandshake,
-    title: "Cero friccion para tu equipo",
-    text: "La participacion es simple: cargamos la informacion y tu empresa queda visible en la feria.",
-  },
-  {
-    icon: LuGlobe,
-    title: "100% virtual y sin costo",
-    text: "Participa sin logistica presencial, traslados ni inversion inicial.",
-  },
-  {
-    icon: LuSparkles,
-    title: "Impacto social real",
-    text: "Sumarte tambien significa abrir oportunidades laborales para nuevos talentos del sector IT.",
+    title: "Implementacion simple para tu equipo",
+    text: "La carga y coordinacion se resuelven de forma acompaniada, para que participar no sume friccion operativa.",
   },
   {
     icon: LuBriefcase,
-    title: "Diversidad de perfiles",
-    text: "Encontra candidatos con distintas trayectorias: egresados, perfiles junior, reconversion y experiencia previa.",
+    title: "Espacio para mostrar tu propuesta",
+    text: "Ademas de aparecer en la feria, podes presentar cultura, areas de trabajo y lo que hace atractiva a tu empresa.",
+  },
+  {
+    icon: LuSparkles,
+    title: "Asociacion con una iniciativa de impacto",
+    text: "Participar tambien posiciona a tu empresa junto a una propuesta con foco en empleabilidad e inclusion digital.",
+  },
+  {
+    icon: LuGlobe,
+    title: "Continuidad despues del evento",
+    text: "La feria funciona como punto de encuentro inicial y deja abierta la conversacion con quienes se interesen por tu empresa.",
   },
 ];
