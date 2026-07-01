@@ -80,7 +80,7 @@ const Hero = () => {
                   loading="lazy"
                 />
                 <span className="mt-2 text-[0.78rem] text-[#aaaaaa] text-center">
-                  Sponsor oficial
+                  Aliado estratégico
                 </span>
               </a>
             </div>
