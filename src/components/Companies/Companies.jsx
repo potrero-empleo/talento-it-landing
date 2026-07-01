@@ -18,13 +18,13 @@ const Companies = () => {
               para empresas que quieren participar
             </p>
 
-            <h2 className="mb-5 font-['Chakra_Petch'] text-[clamp(2.05rem,4vw,3.2rem)] font-bold leading-[1] tracking-[0.01em] text-white">
+            <h2 className="mb-5 font-['Chakra_Petch'] text-[clamp(2.05rem,4vw,3.2rem)] font-bold leading- tracking-[0.01em] text-white">
               Lo que tu empresa
               <br />
               obtiene al sumarse
             </h2>
 
-            <p className="max-w-[720px] text-[1.02rem] leading-[1.8] text-[#aaaaaa]">
+            <p className="max-w-180 text-[1.02rem] leading-[1.8] text-[#aaaaaa]">
               Participar en Talento IT no es solo aparecer en una grilla. Es
               mostrar tu empresa dentro de una feria pensada para conectar
               organizaciones con perfiles IT de distintas trayectorias, de forma
@@ -38,7 +38,7 @@ const Companies = () => {
                 key={signal.value}
                 className="border border-[#272727] bg-[#171717] px-5 py-4 transition-all duration-300 hover:border-[#C8D400]/30 hover:bg-[#1b1b1b]"
               >
-                <p className="font-['Chakra_Petch'] text-[1rem] font-semibold uppercase tracking-[0.05em] text-[#C8D400]">
+                <p className="font-['Chakra_Petch'] text-[1rem] font-semibold uppercase tracking-wider text-[#C8D400]">
                   {signal.value}
                 </p>
                 <p className="mt-2 text-sm leading-[1.7] text-[#8f8f8f]">

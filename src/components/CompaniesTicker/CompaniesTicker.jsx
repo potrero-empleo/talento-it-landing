@@ -41,7 +41,7 @@ function EmpresasLogos() {
           </h2>
           <p className="mx-auto max-w-4xl text-[1rem] leading-[1.8] text-[#d7d7d7] lg:text-lg">
             Los principales lideres de tecnologia confian en Talento IT para
-            escalar sus capacidades tech
+            escalar sus capacidades tech.
           </p>
         </div>
 

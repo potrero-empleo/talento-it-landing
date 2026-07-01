@@ -12,7 +12,7 @@ export const brandLogos = [
   {
     id: "aws",
     name: "AWS",
-    url: "/aws-svgrepo-com.svg",
+    url: "../public/aws-svgrepo-com.svg",
   },
   {
     id: "rappi",

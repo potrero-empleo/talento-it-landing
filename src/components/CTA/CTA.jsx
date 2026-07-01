@@ -174,7 +174,7 @@ export default function CTA() {
             <p className="mb-5 flex items-center gap-3 font-['Chakra_Petch'] text-[0.78rem] uppercase tracking-[0.16em] text-white after:h-px after:w-10 after:bg-white/40 after:content-['']">
               quiero sumar mi empresa
             </p>
-            <h2 className="mb-4 font-['Chakra_Petch'] text-[clamp(2.05rem,4vw,3.15rem)] font-bold leading-[1] tracking-[0.01em] text-white">
+            <h2 className="mb-4 font-['Chakra_Petch'] text-[clamp(2.05rem,4vw,3.15rem)] font-bold leading-none tracking-[0.01em] text-white">
               Postula tu empresa
               <br />
               en pocos pasos
