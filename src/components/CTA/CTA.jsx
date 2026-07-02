@@ -179,7 +179,7 @@ export default function CTA() {
               <br />
               en pocos pasos
             </h2>
-            <p className="max-w-[620px] text-[1rem] leading-[1.8] text-[#aaaaaa]">
+            <p className="max-w-55 text-[1rem] leading-[1.8] text-[#aaaaaa]">
               Completa el formulario y te contactamos para coordinar la carga de
               tu empresa en la feria. La participación es gratuita y el proceso
               esta pensado para que sumarte sea rápido y simple.
@@ -198,7 +198,7 @@ export default function CTA() {
           </div>
 
           <div className="border border-[#272727] bg-[#141414] px-5 py-5 md:px-6 md:py-6">
-            <p className="font-['Chakra_Petch'] text-[0.88rem] uppercase tracking-[0.1em] text-white">
+            <p className="font-['Chakra_Petch'] text-[0.88rem] uppercase tracking-widest text-white">
               Cómo se inscriben los candidatos?
             </p>
             <p className="mt-3 text-[0.95rem] leading-[1.8] text-[#9c9c9c]">
@@ -228,7 +228,7 @@ export default function CTA() {
 
         <div className="grid gap-6 lg:grid-cols-[0.34fr_0.66fr]">
           <aside className="order-2 border border-[#272727] bg-[#121212] p-6 md:p-7 lg:order-1">
-            <p className="font-['Chakra_Petch'] text-[0.84rem] uppercase tracking-[0.1em] text-white">
+            <p className="font-['Chakra_Petch'] text-[0.84rem] uppercase tracking-widest text-white">
               Antes de enviar
             </p>
             <h3 className="mt-4 font-['Chakra_Petch'] text-[1.25rem] font-semibold tracking-[0.01em] text-white">
@@ -265,7 +265,7 @@ export default function CTA() {
 
             <div className="mb-8 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
               <div>
-                <p className="font-['Chakra_Petch'] text-[0.84rem] uppercase tracking-[0.1em] text-white">
+                <p className="font-['Chakra_Petch'] text-[0.84rem] uppercase tracking-widest text-white">
                   Formulario de empresa
                 </p>
                 <h3 className="mt-3 font-['Chakra_Petch'] text-[1.45rem] font-semibold tracking-[0.01em] text-white">
@@ -431,7 +431,7 @@ export default function CTA() {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="focus-ring inline-block w-full whitespace-nowrap rounded bg-[#C8D400] px-5 py-3 text-center font-['Chakra_Petch'] text-[0.9rem] font-bold uppercase tracking-[0.05em] text-[#111111] transition hover:-translate-y-0.5 hover:bg-[#d9e600] disabled:cursor-not-allowed disabled:opacity-70 disabled:hover:translate-y-0 disabled:hover:bg-[#C8D400] md:w-auto md:min-w-[245px]"
+                  className="focus-ring inline-block w-full whitespace-nowrap rounded bg-[#C8D400] px-5 py-3 text-center font-['Chakra_Petch'] text-[0.9rem] font-bold uppercase tracking-wiedr text-[#111111] transition hover:-translate-y-0.5 hover:bg-[#d9e600] disabled:cursor-not-allowed disabled:opacity-70 disabled:hover:translate-y-0 disabled:hover:bg-[#C8D400] md:w-auto md:min-w-61.25"
                 >
                   {isSubmitting ? "Enviando correo..." : "Quiero sumar mi empresa"}
                 </button>
