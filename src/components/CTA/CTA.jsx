@@ -199,7 +199,7 @@ export default function CTA() {
 
           <div className="border border-[#272727] bg-[#141414] px-5 py-5 md:px-6 md:py-6">
             <p className="font-['Chakra_Petch'] text-[0.88rem] uppercase tracking-widest text-white">
-              Cómo se inscriben los candidatos?
+             ¿Cómo acceden las empresas al talento? 
             </p>
             <p className="mt-3 text-[0.95rem] leading-[1.8] text-[#9c9c9c]">
               {candidateSignupNote}
