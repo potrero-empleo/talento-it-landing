@@ -9,15 +9,15 @@ import {
 
 export const institutionalPillars = [
   {
-    title: "Formacion conectada con empleabilidad",
+    title: "Formación conectada con empleabilidad",
     description:
-      "La propuesta se apoya en iniciativas de formacion gratuita y desarrollo profesional orientadas a ampliar oportunidades laborales en entornos digitales.",
+      "La propuesta se apoya en iniciativas de formación gratuita y desarrollo profesional orientadas a ampliar oportunidades laborales en entornos digitales.",
     icon: LuGraduationCap,
   },
   {
-    title: "Articulacion con empresas y aliados",
+    title: "Articulación con empresas y aliados",
     description:
-      "La participacion empresarial se integra en un entramado de organizaciones, aliados y programas que conectan talento, empleabilidad e impacto sostenido.",
+      "La participación empresarial se integra en un entramado de organizaciones, aliados y programas que conectan talento, empleabilidad e impacto sostenido.",
     icon: LuBuilding2,
   },
   {
@@ -33,23 +33,23 @@ export const institutionalPartners = [
     id: "potrero-digital",
     name: "Potrero Digital",
     description:
-      "Red de centros de aprendizaje de oficios digitales con foco en formacion y empleabilidad.",
+      "Red de centros de aprendizaje de oficios digitales con foco en formación y empleabilidad.",
   },
   {
     id: "fundacion-compromiso",
-    name: "Fundacion Compromiso",
+    name: "Fundación Compromiso",
     description:
-      "Organizacion que impulsa programas, alianzas y proyectos de desarrollo con impacto social.",
+      "Organización que impulsa programas, alianzas y proyectos de desarrollo con impacto social.",
   },
 ];
 
 export const institutionalSupportNote =
-  "La convocatoria tambien se articula con Potrero Empleos para acompanar la vinculacion con empresas y reforzar el puente entre formacion y empleabilidad.";
+  "La convocatoria también se articula con Potrero Empleos para acompañar la vinculación con empresas y reforzar el puente entre formación y empleabilidad.";
 
 export const institutionalStats = [
   { value: "30.000", label: "personas vinculadas a Potrero Digital" },
   { value: "24", label: "distritos alcanzados por la convocatoria" },
-  { value: "+500", label: "perfiles IT en busqueda activa para esta edicion" },
+  { value: "+500", label: "perfiles IT en busqueda activa para esta edición" },
 ];
 
 export const federalProfiles = [
@@ -67,8 +67,8 @@ export const federalProfiles = [
   },
   {
     icon: LuRefreshCcw,
-    title: "En reconversion laboral",
+    title: "En reconversión laboral",
     description:
-      "Perfiles provenientes de otras industrias que eligieron desarrollarse en tecnologia con una motivacion muy alta.",
+      "Perfiles provenientes de otras industrias que eligieron desarrollarse en tecnología con una motivación muy alta.",
   },
 ];

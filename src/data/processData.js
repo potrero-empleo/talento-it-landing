@@ -11,9 +11,9 @@ import {
 export const processSteps = [
   {
     step: "01",
-    title: "Nos compartis tu busqueda",
+    title: "Nos compartis tu búsqueda",
     description:
-      "Relevamos el perfil, seniority, stack y objetivos de contratacion para presentar tu empresa con claridad.",
+      "Relevamos el perfil, seniority, stack y objetivos de contratación para presentar tu empresa con claridad.",
     icon: LuClipboardCheck,
   },
   {
@@ -27,14 +27,14 @@ export const processSteps = [
     step: "03",
     title: "Recibis candidatos alineados",
     description:
-      "Conectas con perfiles IT de distintas provincias, en busqueda activa o explorando nuevas oportunidades.",
+      "Conectas con perfiles IT de distintas provincias, en búsqueda activa o explorando nuevas oportunidades.",
     icon: LuUsers,
   },
   {
     step: "04",
     title: "Seguimos la conversacion",
     description:
-      "Queda abierto el canal para continuar entrevistas, retos tecnicos y proximos pasos con los equipos interesados.",
+      "Queda abierto el canal para continuar entrevistas, retos técnicos y próximos pasos con los equipos interesados.",
     icon: LuMessagesSquare,
   },
 ];
@@ -42,7 +42,7 @@ export const processSteps = [
 export const processHighlights = [
   {
     title: "Activacion agil",
-    description: "Podemos dejar tu participacion lista en pocos pasos, sin una implementacion compleja.",
+    description: "Podemos dejar tu participación lista en pocos pasos, sin una implementacion compleja.",
     icon: LuClock3,
   },
   {

@@ -45,7 +45,7 @@ export default function CTA() {
         return "";
       case "phone":
         if (trimmed && !validPhone(trimmed)) {
-          return "Ingresa un telefono valido o dejalo vacio.";
+          return "Ingresa un telèfono valido o dejalo vacio.";
         }
         return "";
       case "website":
@@ -142,8 +142,8 @@ export default function CTA() {
     "w-full rounded-xl border border-[#2b2b2b] bg-[#161616] px-4 py-3 text-white placeholder:text-[#666666] transition-all duration-200 hover:border-[#3a3a3a] focus:border-[#C8D400]/60 focus:outline-none focus:ring-2 focus:ring-[#C8D400]/15";
 
   const trustNotes = [
-    "Participacion sin costo para tu empresa",
-    "Acompanamiento del equipo durante la carga",
+    "Participación sin costo para tu empresa",
+    "Acompañamiento del equipo durante la carga",
     "Contacto posterior con los perfiles interesados",
   ];
 
@@ -181,8 +181,8 @@ export default function CTA() {
             </h2>
             <p className="max-w-[620px] text-[1rem] leading-[1.8] text-[#aaaaaa]">
               Completa el formulario y te contactamos para coordinar la carga de
-              tu empresa en la feria. La participacion es gratuita y el proceso
-              esta pensado para que sumarte sea rapido y simple.
+              tu empresa en la feria. La participación es gratuita y el proceso
+              esta pensado para que sumarte sea rápido y simple.
             </p>
 
             <div className="mt-6 flex flex-wrap gap-2.5">
@@ -199,7 +199,7 @@ export default function CTA() {
 
           <div className="border border-[#272727] bg-[#141414] px-5 py-5 md:px-6 md:py-6">
             <p className="font-['Chakra_Petch'] text-[0.88rem] uppercase tracking-[0.1em] text-white">
-              Como se inscriben los candidatos
+              Cómo se inscriben los candidatos?
             </p>
             <p className="mt-3 text-[0.95rem] leading-[1.8] text-[#9c9c9c]">
               {candidateSignupNote}
@@ -238,19 +238,19 @@ export default function CTA() {
               <div className="border-l border-[#C8D400]/45 pl-4">
                 <p className="text-sm font-semibold text-white">Datos de la empresa</p>
                 <p className="mt-1 text-sm leading-[1.75] text-[#909090]">
-                  Nombre, sitio web y una breve referencia para identificar a tu organizacion.
+                  Nombre, sitio web y una breve referencia para identificar a tu organización.
                 </p>
               </div>
               <div className="border-l border-[#C8D400]/45 pl-4">
                 <p className="text-sm font-semibold text-white">Persona de contacto</p>
                 <p className="mt-1 text-sm leading-[1.75] text-[#909090]">
-                  Un referente para que podamos coordinar la participacion y dar seguimiento.
+                  Un referente para que podamos coordinar la participación y dar seguimiento.
                 </p>
               </div>
               <div className="border-l border-[#C8D400]/45 pl-4">
                 <p className="text-sm font-semibold text-white">Mensaje adicional</p>
                 <p className="mt-1 text-sm leading-[1.75] text-[#909090]">
-                  Si queres, podes sumar contexto o comentarios utiles para el equipo.
+                  Si querés, podés sumar contexto o comentarios útiles para el equipo.
                 </p>
               </div>
             </div>
@@ -454,7 +454,7 @@ export default function CTA() {
                   )}
                   {status === "sent" && (
                     <span role="status" className="text-green-400">
-                      Formulario enviado, se abrira tu cliente de correo.
+                      Formulario enviado, se abrirá tu cliente de correo.
                     </span>
                   )}
                 </p>

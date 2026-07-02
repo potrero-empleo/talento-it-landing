@@ -40,7 +40,7 @@ export const companyAudienceSignals = [
   {
     value: "Visibilidad para tu empresa",
     label:
-      "Tu propuesta puede presentarse con contexto, cultura y datos clave para que los postulantes entiendan mejor a tu organizacion.",
+      "Tu propuesta puede presentarse con contexto, cultura y datos clave para que los postulantes entiendan mejor a tu organización.",
   },
   {
     value: "Talento con recorridos diversos",
@@ -58,7 +58,7 @@ export const companySupportPoints = [
   {
     title: "Muestras tu propuesta",
     description:
-      "Tu empresa puede comunicar su marca, su cultura y la informacion que necesita destacar dentro de la feria.",
+      "Tu empresa puede comunicar su marca, su cultura y la información que necesita destacar dentro de la feria.",
   },
   {
     title: "Llegas a perfiles diversos",
@@ -68,6 +68,6 @@ export const companySupportPoints = [
   {
     title: "Recibes interes real",
     description:
-      "La feria deja una base concreta de contactos para que tu equipo avance con entrevistas, seguimiento o proximos pasos.",
+      "La feria deja una base concreta de contactos para que tu equipo avance con entrevistas, seguimiento o próximos pasos.",
   },
 ];

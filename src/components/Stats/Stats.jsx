@@ -14,7 +14,7 @@ const Stats = () => {
             {stat.value}
           </p>
 
-          <p className="mt-2 text-[0.78rem] leading-[1.5] tracking-[0.04em] text-[#888888] md:text-[0.8rem] xl:text-[0.82rem]">
+          <p className="mt-2 text-[0.78rem] leading-normal tracking-[0.04em] text-[#888888] md:text-[0.8rem] xl:text-[0.82rem]">
             {stat.label}
           </p>
         </div>

@@ -11,9 +11,9 @@ export const benefits = [
   {
     icon: LuBadgeCheck,
     title: "Presencia frente a una comunidad activa",
-    text: "Tu empresa se muestra en un espacio donde ya hay interes real por oportunidades tech y nuevas experiencias laborales.",
+    text: "Posicioná tu empresa en un ecosistema vibrante, donde el talento busca activamente oportunidades tecnológicas y nuevas experiencias profesionales.",
   },
-  {
+ /* {
     icon: LuUsers,
     title: "Llegas a perfiles con intencion de participar",
     text: "No es trafico frio: la feria convoca personas que entran a explorar empresas, speakers y propuestas concretas.",
@@ -27,15 +27,15 @@ export const benefits = [
     icon: LuBriefcase,
     title: "Espacio para mostrar tu propuesta",
     text: "Ademas de aparecer en la feria, podes presentar cultura, areas de trabajo y lo que hace atractiva a tu empresa.",
-  },
+  }*/,
   {
     icon: LuSparkles,
-    title: "Asociacion con una iniciativa de impacto",
-    text: "Participar tambien posiciona a tu empresa junto a una propuesta con foco en empleabilidad e inclusion digital.",
+    title: "Impacto y valor para tu marca",
+    text: "Al participar, tu empresa se posiciona como un actor clave en el desarrollo de una propuesta que impulsa la empleabilidad, la innovación y la inclusión digital en la comunidad.",
   },
   {
     icon: LuGlobe,
-    title: "Continuidad despues del evento",
-    text: "La feria funciona como punto de encuentro inicial y deja abierta la conversacion con quienes se interesen por tu empresa.",
+    title: "Destacá el valor de tu organización",
+    text: "Sumate a la feria y abrí las puertas de tu empresa: mostrá tu cultura interna, tus áreas de desarrollo y todo aquello que te posiciona como un lugar único para trabajar.",
   },
 ];

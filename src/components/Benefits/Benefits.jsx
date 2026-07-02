@@ -13,13 +13,13 @@ const Benefits = () => {
                     por qué participar
                 </p>
 
-                <h2 className="mb-5 font-['Chakra_Petch'] text-[clamp(2.05rem,3.5vw,3rem)] font-bold leading-1 tracking-[0.01em] text-white"/>
+                <h2 class="mb-5 font-['Chakra_Petch'] text-[clamp(2.05rem,4vw,3.2rem)] font-bold leading- tracking-[0.01em] text-white">
                     Razones que marcan
                     <br />
-                    la diferencia.
+                    la diferencia. </h2>
 
                 <p className="max-w-140 text-[1.05rem] leading-[1.8] text-[#aaaaaa]">
-                   Sumarte dará visibilidad a tu marca, será una oportunidad para exponer tu propuesta de valor y conectar de forma directa con una comunidad activa..
+                   Sumarte dará visibilidad a tu marca, será una oportunidad para exponer tu propuesta de valor y conectar de forma directa con una comunidad activa.
                 </p>
             </div>
 

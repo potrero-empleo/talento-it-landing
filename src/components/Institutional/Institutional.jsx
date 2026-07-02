@@ -23,7 +23,7 @@ const Institutional = () => {
                 acompanamiento institucional
               </p>
               <p className="mt-3 text-sm leading-[1.8] text-[#9a9a9a]">
-                Talento IT se apoya en organizaciones que trabajan en formacion,
+                Talento IT se apoya en organizaciones que trabajan en formación,
                 empleabilidad e impacto social para ampliar oportunidades y
                 articular el encuentro con el ecosistema real.
               </p>
@@ -33,13 +33,13 @@ const Institutional = () => {
               {institutionalPartners.map((partner) => (
                 <div
                   key={partner.id}
-                  className="flex min-h-[92px] items-center justify-center border border-[#2a2a2a] bg-[#111111] px-6 py-5 transition-all duration-300 hover:border-[#C8D400]/30 hover:bg-[#161616]"
+                  className="flex min-h-23 items-center justify-center border border-[#2a2a2a] bg-[#111111] px-6 py-5 transition-all duration-300 hover:border-[#C8D400]/30 hover:bg-[#161616]"
                 >
                   <img
                     src={partnerLogos[partner.id]}
                     alt={partner.name}
                     className={`h-10 w-auto object-contain opacity-90 transition-opacity duration-300 hover:opacity-100 ${
-                      partner.id === "fundacion-compromiso" ? "max-w-[210px]" : "max-w-[180px]"
+                      partner.id === "fundacion-compromiso" ? "max-w-52.5" : "max-w-45"
                     }`}
                   />
                 </div>
@@ -58,16 +58,16 @@ const Institutional = () => {
               respaldo institucional
             </p>
 
-            <h2 className="mb-5 font-['Chakra_Petch'] text-[clamp(2.05rem,4vw,3.2rem)] font-bold leading-[1] tracking-[0.01em] text-white">
+            <h2 className="mb-5 font-['Chakra_Petch'] text-[clamp(2.05rem,4vw,3.2rem)] font-bold leading-none tracking-[0.01em] text-white">
               Una propuesta con
               <br />
               respaldo y proyeccion real
             </h2>
 
-            <p className="max-w-[700px] text-[1.02rem] leading-[1.8] text-[#aaaaaa]">
+            <p className="max-w-175 text-[1.02rem] leading-[1.8] text-[#aaaaaa]">
               La feria se sostiene en una red de programas, alianzas y espacios
               de aprendizaje que le dan contexto, continuidad y una base
-              institucional solida mas alla de una unica edicion.
+              institucional sólida más allá de una única edición.
             </p>
           </div>
 

@@ -19,7 +19,7 @@ const Process = () => {
               para sumar tu empresa
             </h2>
 
-            <p className="max-w-[620px] text-[1.02rem] leading-[1.8] text-[#aaaaaa]">
+            <p className="max-w-155 text-[1.02rem] leading-[1.8] text-[#aaaaaa]">
               La landing ya explica por que conviene participar. Esta seccion
               completa el cuadro: que pasa desde que nos escribis hasta que tu
               equipo empieza a conversar con talento.
@@ -66,7 +66,7 @@ const Process = () => {
                   <div className="absolute left-0 top-0 h-0.5 w-0 bg-[#C8D400] transition-all duration-300 group-hover:w-full" />
 
                   <div className="flex flex-col gap-5 md:flex-row md:items-start">
-                    <div className="flex items-center gap-4 md:w-[170px] md:flex-col md:items-start md:gap-3">
+                    <div className="flex items-center gap-4 md:w-42.5 md:flex-col md:items-start md:gap-3">
                       <span className="font-['Chakra_Petch'] text-3xl font-bold leading-none text-[#C8D400]">
                         {step.step}
                       </span>
@@ -75,7 +75,7 @@ const Process = () => {
                       </div>
                     </div>
 
-                    <div className="max-w-[520px]">
+                    <div className="max-w-130">
                       <h3 className="font-['Chakra_Petch'] text-[1.1rem] font-semibold text-white">
                         {step.title}
                       </h3>

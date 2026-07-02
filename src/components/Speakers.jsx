@@ -40,7 +40,7 @@ function SpeakerCard({ person }) {
       </div>
 
       <div className="spk-info">
-        <span className="mb-3 inline-flex border border-[#313131] bg-[#141414] px-3 py-1 font-['Chakra_Petch'] text-[0.68rem] uppercase tracking-[0.1em] text-[#d7d7d7] transition-colors duration-300 group-hover:border-[#C8D400]/35 group-hover:text-white">
+        <span className="mb-3 inline-flex border border-[#313131] bg-[#141414] px-3 py-1 font-['Chakra_Petch'] text-[0.68rem] uppercase tracking-widest text-[#d7d7d7] transition-colors duration-300 group-hover:border-[#C8D400]/35 group-hover:text-white">
           {person.category}
         </span>
         <h4 className="spk-name">{person.name}</h4>
@@ -176,7 +176,7 @@ export default function Speakers() {
     >
       <div className="layout-container">
         <div className="text-center mb-10 md:mb-18 space-y-5">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">Speakers confirmados</h2>
+          <h2 class="mb-5 font-['Chakra_Petch'] text-[clamp(2.05rem,4vw,3.2rem)] font-bold leading- tracking-[0.01em] text-white">Speakers confirmados</h2>
           <p className="text-[#aaaaaa] max-w-2xl mx-auto">Referentes que hacen el encuentro</p>
           <p className="mx-auto max-w-4xl text-[#cfcfcf]">
             Lideres del ecosistema IT y de empleabilidad digital comparten su
