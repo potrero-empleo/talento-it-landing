@@ -1,7 +1,6 @@
 import {
   companyAudienceSignals,
   companyRoleTracks,
-  companySupportPoints,
 } from "../../data/companyProfilesData";
 
 const Companies = () => {
@@ -18,7 +17,7 @@ const Companies = () => {
               para empresas que quieren participar
             </p>
 
-            <h2 className="mb-5 font-['Chakra_Petch'] text-[clamp(2.05rem,4vw,3.2rem)] font-bold leading- tracking-[0.01em] text-white">
+            <h2 className="mb-5 font-['Chakra_Petch'] text-[clamp(2.05rem,4vw,3.2rem)] font-bold leading-[1] tracking-[0.01em] text-white">
               Lo que tu empresa
               <br />
               obtiene al sumarse
@@ -89,21 +88,6 @@ const Companies = () => {
           })}
         </div>
 
-        <div className="mt-10 grid gap-4 md:grid-cols-3">
-          {companySupportPoints.map((point) => (
-            <article
-              key={point.title}
-              className="border border-[#272727] bg-[#131313] px-5 py-5 transition-all duration-300 hover:border-[#C8D400]/30 hover:bg-[#171717]"
-            >
-              <h3 className="font-['Chakra_Petch'] text-[1.06rem] font-semibold tracking-[0.01em] text-white">
-                {point.title}
-              </h3>
-              <p className="mt-3 text-sm leading-[1.75] text-[#8f8f8f]">
-                {point.description}
-              </p>
-            </article>
-          ))}
-        </div>
       </div>
     </section>
   );

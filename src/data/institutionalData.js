@@ -1,30 +1,27 @@
 import {
-  LuGraduationCap,
   LuBuilding2,
-  LuMap,
-  LuUserPlus,
-  LuBriefcaseBusiness,
-  LuRefreshCcw,
+  LuGraduationCap,
+  LuHandshake,
 } from "react-icons/lu";
 
 export const institutionalPillars = [
   {
-    title: "Formación conectada con empleabilidad",
+    title: "Acerca de Fundación Compromiso",
     description:
-      "La propuesta se apoya en iniciativas de formación gratuita y desarrollo profesional orientadas a ampliar oportunidades laborales en entornos digitales.",
-    icon: LuGraduationCap,
-  },
-  {
-    title: "Articulación con empresas y aliados",
-    description:
-      "La participación empresarial se integra en un entramado de organizaciones, aliados y programas que conectan talento, empleabilidad e impacto sostenido.",
+      "Potrero Empleos es un proyecto de Fundacion Compromiso, una organizacion que impulsa articulaciones con empresas, inversores de impacto y ONG para fortalecer oportunidades de innovacion y desarrollo.",
     icon: LuBuilding2,
   },
   {
-    title: "Alcance nacional",
+    title: "Potrero Digital",
     description:
-      "La convocatoria y el acceso tienen una mirada federal para acercar oportunidades a perfiles IT de distintas regiones del pais.",
-    icon: LuMap,
+      "Somos una red de centros de aprendizaje en oficios digitales que capacita a personas con barreras socioeconomicas para que puedan insertarse en la economia del conocimiento.",
+    icon: LuGraduationCap,
+  },
+  {
+    title: "Formacion y empleabilidad con impacto",
+    description:
+      "Ofrecemos formacion digital gratuita y herramientas concretas para ampliar el acceso al empleo, los ingresos y la participacion en sectores de alto crecimiento.",
+    icon: LuHandshake,
   },
 ];
 
@@ -45,30 +42,3 @@ export const institutionalPartners = [
 
 export const institutionalSupportNote =
   "La convocatoria también se articula con Potrero Empleos para acompañar la vinculación con empresas y reforzar el puente entre formación y empleabilidad.";
-
-export const institutionalStats = [
-  { value: "30.000", label: "personas vinculadas a Potrero Digital" },
-  { value: "24", label: "distritos alcanzados por la convocatoria" },
-  { value: "+500", label: "perfiles IT en busqueda activa para esta edición" },
-];
-
-export const federalProfiles = [
-  {
-    icon: LuUserPlus,
-    title: "Nuevos en IT",
-    description:
-      "Personas que buscan su primera oportunidad laboral en tecnologia y necesitan empresas dispuestas a apostar por potencial.",
-  },
-  {
-    icon: LuBriefcaseBusiness,
-    title: "Con experiencia",
-    description:
-      "Profesionales IT en busqueda activa de nuevos proyectos, equipos y desafios concretos.",
-  },
-  {
-    icon: LuRefreshCcw,
-    title: "En reconversión laboral",
-    description:
-      "Perfiles provenientes de otras industrias que eligieron desarrollarse en tecnología con una motivación muy alta.",
-  },
-];

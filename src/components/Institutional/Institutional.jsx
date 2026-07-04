@@ -3,7 +3,6 @@ import compromisoLogo from "../../assets/Logo Compromiso - Principal.png";
 import {
   institutionalPartners,
   institutionalPillars,
-  institutionalStats,
   institutionalSupportNote,
 } from "../../data/institutionalData";
 
@@ -52,8 +51,8 @@ const Institutional = () => {
           </p>
         </div>
 
-        <div className="mb-12 grid gap-8 lg:grid-cols-[1.05fr_0.95fr] lg:items-end">
-          <div>
+        <div className="mb-12">
+          <div className="max-w-[760px]">
             <p className="mb-5 flex items-center gap-3 font-['Chakra_Petch'] text-[0.78rem] uppercase tracking-[0.16em] text-white after:h-px after:w-10 after:bg-white/40 after:content-['']">
               respaldo institucional
             </p>
@@ -69,22 +68,6 @@ const Institutional = () => {
               de aprendizaje que le dan contexto, continuidad y una base
               institucional sólida más allá de una única edición.
             </p>
-          </div>
-
-          <div className="grid grid-cols-1 gap-3 sm:grid-cols-3 lg:grid-cols-1">
-            {institutionalStats.map((item) => (
-              <div
-                key={item.label}
-                className="border border-[#272727] bg-[#171717] px-5 py-4 transition-all duration-300 hover:border-[#C8D400]/30 hover:bg-[#1b1b1b]"
-              >
-                <p className="font-['Chakra_Petch'] text-[2.1rem] font-bold tracking-[0.01em] text-[#C8D400]">
-                  {item.value}
-                </p>
-                <p className="mt-2 text-sm leading-[1.7] text-[#909090]">
-                  {item.label}
-                </p>
-              </div>
-            ))}
           </div>
         </div>
 
