@@ -12,22 +12,18 @@ export const brandLogos = [
   {
     id: "aws",
     name: "AWS",
-    url: "../public/aws-svgrepo-com.svg",
+    url: "https://drive.google.com/file/d/1GMJYLPOzWmG-ZGxWjcJt2SpIkJd6FtuQ/view?usp=sharing",
   },
-  {
-    id: "rappi",
-    name: "Rappi",
-    url: "/Rappi_logo.svg",
-  },
+  
   {
     id: "santander",
     name: "Santander",
     url: "https://www.vectorlogo.zone/logos/santanderbank/santanderbank-ar21~bgwhite.svg",
   },
   {
-    id: "banco-galicia",
-    name: "Banco Galicia",
-    url: "/banco-galicia-logo.svg",
+    id: "desa",
+    name: "desa",
+    url: "https://drive.google.com/file/d/1KYjijEw7czYtOo09ASKGE9imykaXdb2A/view?usp=drive_link",
   },
   {
     id: "mercado-libre",
@@ -49,15 +45,11 @@ export const brandLogos = [
     name: "Google",
     url: "https://www.vectorlogo.zone/logos/google/google-icon.svg",
   },
+  
   {
-    id: "despegar",
-    name: "Despegar",
-    url: "/Despegar.com_logo.svg",
-  },
-  {
-    id: "uala",
-    name: "Uala",
-    url: "/uala-logo.png",
+    id: "jp-morgan",
+    name: "Jp Morgan",
+    url: "https://drive.google.com/file/d/16z31DgPMVoFFK1tOH0joKSpDGbIzrhYx/view?usp=sharing",
   },
   {
     id: "oracle",
@@ -65,13 +57,21 @@ export const brandLogos = [
     url: "https://www.vectorlogo.zone/logos/oracle/oracle-ar21~bgwhite.svg",
   },
   {
-    id: "telecom",
-    name: "Telecom",
-    url: "/Telecom.svg",
+    id: "logicalis-latam",
+    name: "logicalis latam",
+    url: "https://drive.google.com/file/d/1jkdh5s-gZd75BCkwPgCfFAlfePym9ymc/view?usp=sharing",
   },
-  {
-    id: "naranja-x",
-    name: "Naranja X",
-    url: "/NaranjaX-logo.svg",
+ 
+   {
+    id: "logo-axel-labruna",
+    name: "logo axel labruna",
+    url: "https://drive.google.com/file/d/1-8jtrvGIFZAQu4wfTMTZXpcZzAtjuCtk/view?usp=drive_link",
   },
+{
+  id: "logo-andreani",
+  name: "logo andreani",
+  url: "https://drive.google.com/file/d/1q3_MfOf4p6yXSQAkp99EDdz66J6vIu9d/view?usp=drive_link"
+}
+
+
 ];
