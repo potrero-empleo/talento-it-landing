@@ -176,7 +176,7 @@ export default function Speakers() {
     >
       <div className="layout-container">
         <div className="text-center mb-10 md:mb-18 space-y-5">
-          <h2 className="mb-5 font-['Chakra_Petch'] text-[clamp(2.05rem,4vw,3.2rem)] font-bold leading-[1] tracking-[0.01em] text-white">
+          <h2 className="mb-5 font-['Chakra_Petch'] text-[clamp(2.05rem,4vw,3.2rem)] font-bold leading-none tracking-[0.01em] text-white">
             Speakers confirmados
           </h2>
           <p className="text-[#aaaaaa] max-w-2xl mx-auto">Referentes que hacen el encuentro</p>
