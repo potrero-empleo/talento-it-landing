@@ -58,6 +58,7 @@ export const brandLogos = [
     name: "Google",
     url: "https://www.vectorlogo.zone/logos/google/google-icon.svg",
   },
+  
   {
     id: "despegar",
     name: "Despegar",
