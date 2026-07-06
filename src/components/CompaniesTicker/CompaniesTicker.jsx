@@ -49,7 +49,7 @@ function EmpresasLogos() {
           {brandLogos.map((logo, index) => (
             <div
               key={logo.id}
-              className={`company-logo-entry ${
+              className={`company-logo-entry flex items-center justify-center h-20 w-32 ${
                 isActive ? "company-logo-entry--active" : ""
               }`}
               style={{ transitionDelay: `${index * 55}ms` }}
@@ -58,9 +58,7 @@ function EmpresasLogos() {
                 src={logo.url}
                 alt={logo.name}
                 loading="lazy"
-                width="113"
-                height="45"
-                className="block mx-auto h-10 w-auto object-contain grayscale opacity-80 transition-all duration-300 hover:grayscale-0 hover:opacity-100 md:h-12"
+                className="h-12 w-auto max-w-full object-contain grayscale opacity-80 transition-all duration-300 hover:grayscale-0 hover:opacity-100"
               />
             </div>
           ))}

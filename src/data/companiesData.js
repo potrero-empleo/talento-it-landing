@@ -12,7 +12,7 @@ export const brandLogos = [
   {
     id: "aws",
     name: "AWS",
-    url: "https://drive.google.com/file/d/1GMJYLPOzWmG-ZGxWjcJt2SpIkJd6FtuQ/view?usp=sharing",
+    url: "https://lh3.googleusercontent.com/d/1GMJYLPOzWmG-ZGxWjcJt2SpIkJd6FtuQ=w400",
   },
   
   {
@@ -23,12 +23,12 @@ export const brandLogos = [
   {
     id: "desa",
     name: "desa",
-    url: "https://drive.google.com/file/d/1KYjijEw7czYtOo09ASKGE9imykaXdb2A/view?usp=drive_link",
+    url: "/logos/desa.svg",
   },
   {
     id: "mercado-libre",
     name: "Mercado Libre",
-    url: "/mercadolibre.svg",
+    url: "/logos/mercadolibre.svg",
   },
   {
     id: "pedidos-ya",
@@ -49,7 +49,7 @@ export const brandLogos = [
   {
     id: "jp-morgan",
     name: "Jp Morgan",
-    url: "https://drive.google.com/file/d/16z31DgPMVoFFK1tOH0joKSpDGbIzrhYx/view?usp=sharing",
+    url: "https://lh3.googleusercontent.com/d/16z31DgPMVoFFK1tOH0joKSpDGbIzrhYx=w400",
   },
   {
     id: "oracle",
@@ -59,19 +59,31 @@ export const brandLogos = [
   {
     id: "logicalis-latam",
     name: "logicalis latam",
-    url: "https://drive.google.com/file/d/1jkdh5s-gZd75BCkwPgCfFAlfePym9ymc/view?usp=sharing",
+    url: "https://lh3.googleusercontent.com/d/1jkdh5s-gZd75BCkwPgCfFAlfePym9ymc=w400",
   },
  
    {
     id: "logo-axel-labruna",
     name: "logo axel labruna",
-    url: "https://drive.google.com/file/d/1-8jtrvGIFZAQu4wfTMTZXpcZzAtjuCtk/view?usp=drive_link",
+    url: "/logos/ProfileDVD.svg",
   },
 {
   id: "logo-andreani",
   name: "logo andreani",
-  url: "https://drive.google.com/file/d/1q3_MfOf4p6yXSQAkp99EDdz66J6vIu9d/view?usp=drive_link"
-}
+  url: "/logos/logoAndreani.svg",
+},
+
+{
+  id: "empleahabilidad",
+  name: "empleahabilidad",
+  url: "/logos/empleHabilidad.svg",
+},
+
+{
+  id: "pwc",
+  name: "pwc",
+  url: "/logos/PwC_2025_Logo.png",
+},
 
 
 ];
