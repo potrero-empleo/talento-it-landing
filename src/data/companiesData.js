@@ -1,3 +1,12 @@
+import awsLogo from "../assets/company-logos/aws-svgrepo-com.svg";
+import rappiLogo from "../assets/company-logos/Rappi_logo.svg";
+import bancoGaliciaLogo from "../assets/company-logos/banco-galicia-logo.svg";
+import mercadoLibreLogo from "../assets/company-logos/mercadolibre.svg";
+import despegarLogo from "../assets/company-logos/Despegar.com_logo.svg";
+import ualaLogo from "../assets/company-logos/uala-logo.png";
+import telecomLogo from "../assets/company-logos/Telecom.svg";
+import naranjaXLogo from "../assets/company-logos/NaranjaX-logo.svg";
+
 export const brandLogos = [
   {
     id: "ibm",
@@ -12,23 +21,27 @@ export const brandLogos = [
   {
     id: "aws",
     name: "AWS",
-    url: "https://lh3.googleusercontent.com/d/1GMJYLPOzWmG-ZGxWjcJt2SpIkJd6FtuQ=w400",
+    url: awsLogo,
   },
-  
+  {
+    id: "rappi",
+    name: "Rappi",
+    url: rappiLogo,
+  },
   {
     id: "santander",
     name: "Santander",
     url: "https://www.vectorlogo.zone/logos/santanderbank/santanderbank-ar21~bgwhite.svg",
   },
   {
-    id: "desa",
-    name: "desa",
-    url: "/logos/desa.svg",
+    id: "banco-galicia",
+    name: "Banco Galicia",
+    url: bancoGaliciaLogo,
   },
   {
     id: "mercado-libre",
     name: "Mercado Libre",
-    url: "/logos/mercadolibre.svg",
+    url: mercadoLibreLogo,
   },
   {
     id: "pedidos-ya",
@@ -45,11 +58,15 @@ export const brandLogos = [
     name: "Google",
     url: "https://www.vectorlogo.zone/logos/google/google-icon.svg",
   },
-  
   {
-    id: "jp-morgan",
-    name: "Jp Morgan",
-    url: "https://lh3.googleusercontent.com/d/16z31DgPMVoFFK1tOH0joKSpDGbIzrhYx=w400",
+    id: "despegar",
+    name: "Despegar",
+    url: despegarLogo,
+  },
+  {
+    id: "uala",
+    name: "Uala",
+    url: ualaLogo,
   },
   {
     id: "oracle",
@@ -57,33 +74,13 @@ export const brandLogos = [
     url: "https://www.vectorlogo.zone/logos/oracle/oracle-ar21~bgwhite.svg",
   },
   {
-    id: "logicalis-latam",
-    name: "logicalis latam",
-    url: "https://lh3.googleusercontent.com/d/1jkdh5s-gZd75BCkwPgCfFAlfePym9ymc=w400",
+    id: "telecom",
+    name: "Telecom",
+    url: telecomLogo,
   },
- 
-   {
-    id: "logo-axel-labruna",
-    name: "logo axel labruna",
-    url: "/logos/ProfileDVD.svg",
+  {
+    id: "naranja-x",
+    name: "Naranja X",
+    url: naranjaXLogo,
   },
-{
-  id: "logo-andreani",
-  name: "logo andreani",
-  url: "/logos/logoAndreani.svg",
-},
-
-{
-  id: "empleahabilidad",
-  name: "empleahabilidad",
-  url: "/logos/empleHabilidad.svg",
-},
-
-{
-  id: "pwc",
-  name: "pwc",
-  url: "/logos/PwC_2025_Logo.png",
-},
-
-
 ];
