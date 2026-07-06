@@ -40,7 +40,7 @@ const Navbar = () => {
           <img
             src={potreroEmpleosLogo}
             alt="Potrero Empleos"
-            className="h-6.5 w-auto max-w-[150px] object-contain sm:h-7 sm:max-w-[165px] md:h-12 md:max-w-[185px]"
+            className="h-8 w-auto max-w-[185px] object-contain sm:h-9 md:h-10"
           />
 
           <span className="hidden text-[0.55rem] uppercase tracking-[0.12em] text-[#888888] sm:block md:text-[0.65rem] md:tracking-[0.14em]">

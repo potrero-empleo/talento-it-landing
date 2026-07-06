@@ -1,3 +1,12 @@
+import awsLogo from "../assets/company-logos/aws-svgrepo-com.svg";
+import rappiLogo from "../assets/company-logos/Rappi_logo.svg";
+import bancoGaliciaLogo from "../assets/company-logos/banco-galicia-logo.svg";
+import mercadoLibreLogo from "../assets/company-logos/mercadolibre.svg";
+import despegarLogo from "../assets/company-logos/Despegar.com_logo.svg";
+import ualaLogo from "../assets/company-logos/uala-logo.png";
+import telecomLogo from "../assets/company-logos/Telecom.svg";
+import naranjaXLogo from "../assets/company-logos/NaranjaX-logo.svg";
+
 export const brandLogos = [
   {
     id: "ibm",
@@ -12,12 +21,12 @@ export const brandLogos = [
   {
     id: "aws",
     name: "AWS",
-    url: "../public/aws-svgrepo-com.svg",
+    url: awsLogo,
   },
   {
     id: "rappi",
     name: "Rappi",
-    url: "/Rappi_logo.svg",
+    url: rappiLogo,
   },
   {
     id: "santander",
@@ -27,12 +36,12 @@ export const brandLogos = [
   {
     id: "banco-galicia",
     name: "Banco Galicia",
-    url: "/banco-galicia-logo.svg",
+    url: bancoGaliciaLogo,
   },
   {
     id: "mercado-libre",
     name: "Mercado Libre",
-    url: "/mercadolibre.svg",
+    url: mercadoLibreLogo,
   },
   {
     id: "pedidos-ya",
@@ -52,12 +61,12 @@ export const brandLogos = [
   {
     id: "despegar",
     name: "Despegar",
-    url: "/Despegar.com_logo.svg",
+    url: despegarLogo,
   },
   {
     id: "uala",
     name: "Uala",
-    url: "/uala-logo.png",
+    url: ualaLogo,
   },
   {
     id: "oracle",
@@ -67,11 +76,11 @@ export const brandLogos = [
   {
     id: "telecom",
     name: "Telecom",
-    url: "/Telecom.svg",
+    url: telecomLogo,
   },
   {
     id: "naranja-x",
     name: "Naranja X",
-    url: "/NaranjaX-logo.svg",
+    url: naranjaXLogo,
   },
 ];
