@@ -10,7 +10,7 @@ export default function Footer() {
             <img
               src={potreroEmpleosLogo}
               alt="Potrero Empleos"
-              className="h-8 w-auto max-w-[185px] object-contain sm:h-9 md:h-10"
+              className="h-8 w-auto max-w-46.25 object-contain sm:h-9 md:h-10"
             />
             <p className="mt-4 text-sm leading-[1.8] text-[#909090]">
               Conectamos empresas con talento IT federal, con participacion sin
