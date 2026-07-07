@@ -1,10 +1,12 @@
-import perfil1 from "../assets/speakers/Perfil1.jpg";
-import perfil2 from "../assets/speakers/Perfil2.jpg";
-import perfil3 from "../assets/speakers/Perfil3.jpg";
-import perfil4 from "../assets/speakers/Perfil4.jpg";
-import perfil5 from "../assets/speakers/Perfil5.jpg";
-import perfil7 from "../assets/speakers/Perfil7.jpg";
-import perfilX from "../assets/speakers/Perfilx.jpg";
+import perfil1 from "../assets/speakers/Perfil1.svg";
+import perfil2 from "../assets/speakers/Perfil2.svg";
+import perfil3 from "../assets/speakers/Perfil3.svg";
+import perfil4 from "../assets/speakers/Perfil4.svg";
+import perfil5 from "../assets/speakers/Perfil5.svg";
+import perfil7 from "../assets/speakers/Perfil7.svg";
+import perfil8 from "../assets/speakers/Perfil8.svg";
+import perfil9 from "../assets/speakers/Perfil9.svg";
+import perfil10 from "../assets/speakers/Perfil10.svg";
 
 export const speakerProfiles = [
   {
@@ -12,7 +14,7 @@ export const speakerProfiles = [
     category: "Empleabilidad",
     role: "Referente del ecosistema de empleabilidad",
     org: "",
-    image: perfil1,
+    image: Perfil1,
   },
   {
     name: "SofiJobs",
@@ -40,7 +42,7 @@ export const speakerProfiles = [
     category: "Workshop",
     role: "Ecosistema IT",
     org: "Primer trabajo en UX por donde empezar",
-    image: perfil7,
+    image: perfil6,
   },
   {
     name: "Axel Labruna",
@@ -49,32 +51,33 @@ export const speakerProfiles = [
     org: "Construí tu propio squad de agentes con copilot",
     image: perfil5,
   },
+  
   {
     name: "Laura Pérez Bosio",
     category: "Work",
     role: "",
     org: "Construyendo en comunidad y multiplicando impacto con la IA",
-    image: perfilX,
+    image: perfil7,
   },
   {
     name: "Candelaria Milano Molina",
     category: "Workshop",
     role: "",
     org: "Construyendo en comunidad y multiplicando impacto con la IA",
-    image: perfil1,
+    image: perfil10,
   },
   {
     name: "Ma. Laura Alvarez Modernel",
     category: "Workshop",
     role: "",
     org: "",
-    image: perfil2,
+    image: perfil8,
   },
   {
     name: "Camila Luis",
     category: "Workshop",
     role: "",
     org: "",
-    image: perfil3,
+    image: perfil9,
   },
 ];
