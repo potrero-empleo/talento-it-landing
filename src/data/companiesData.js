@@ -4,7 +4,7 @@ import mercadoLibreLogo from "../assets/company-logos/mercadolibre.svg";
 import despegarLogo from "../assets/company-logos/Despegar.com_logo.svg";
 import ualaLogo from "../assets/company-logos/uala-logo.png";
 import telecomLogo from "../assets/company-logos/Telecom.svg";
-
+import awsLogo from "../assets/company-logos/aws.png";
 
 export const brandLogos = [
   {
@@ -19,7 +19,7 @@ export const brandLogos = [
   },
   {
     id: "aws",
-    name: "AWS",
+    name: "aws",
     url: awsLogo,
   },
   {
@@ -85,12 +85,12 @@ export const brandLogos = [
    {
     id: "karina-frossasco",
     name: "karina frossasco",
-    url: karinaFrossasco,
+    url: karinaFrossascoLogo,
   },
    {
     id: "profile-dvd",
     name: "Profile DVD",
-    url: ProfileDVD,
+    url: ProfileDvdLogo,
   },
 
 

@@ -1,12 +1,12 @@
-import perfil1 from "../assets/speakers/Perfil1.svg";
-import perfil2 from "../assets/speakers/Perfil2.svg";
-import perfil3 from "../assets/speakers/Perfil3.svg";
-import perfil4 from "../assets/speakers/Perfil4.svg";
-import perfil5 from "../assets/speakers/Perfil5.svg";
-import perfil7 from "../assets/speakers/Perfil7.svg";
-import perfil8 from "../assets/speakers/Perfil8.svg";
-import perfil9 from "../assets/speakers/Perfil9.svg";
-import perfil10 from "../assets/speakers/Perfil10.svg";
+import perfil1 from "../assets/speakers/perfil1.svg";
+import perfil2 from "../assets/speakers/perfil2.svg";
+import perfil3 from "../assets/speakers/perfil3.svg";
+import perfil4 from "../assets/speakers/perfil4.svg";
+import perfil5 from "../assets/speakers/perfil5.svg";
+import perfil7 from "../assets/speakers/perfil7.svg";
+import perfil8 from "../assets/speakers/perfil8.svg";
+import perfil9 from "../assets/speakers/perfil9.svg";
+import perfil10 from "../assets/speakers/perfil10.svg";
 
 export const speakerProfiles = [
   {
@@ -78,6 +78,6 @@ export const speakerProfiles = [
     category: "Workshop",
     role: "",
     org: "",
-    image: perfil9,
+    image: Perfil9,
   },
 ];
