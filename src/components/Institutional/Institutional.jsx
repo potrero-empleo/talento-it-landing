@@ -1,5 +1,5 @@
 import potreroLogo from "../assets/company-logos/potrero_logo.png";
-import compromisoLogo from "../assets/company-logos/Logo Compromiso - Principal.png";
+import compromisoLogo from "../assets/company-logos/Logocompromiso.png";
 import {
   institutionalPartners,
   institutionalPillars,
