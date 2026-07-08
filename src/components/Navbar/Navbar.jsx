@@ -1,4 +1,4 @@
-import potreroEmpleosLogo from "../../assets/_potreroempleos.png";
+import potreroEmpleosLogo from "../../assets/company-logos/_potreroempleos.png";
 import { whatsappConfig } from "../../data/contactData";
 
 const Navbar = () => {
@@ -40,7 +40,7 @@ const Navbar = () => {
           <img
             src={potreroEmpleosLogo}
             alt="Potrero Empleos"
-            className="h-8 w-auto max-w-[185px] object-contain sm:h-9 md:h-10"
+            className="h-8 w-auto max-w-46.5 object-contain sm:h-9 md:h-10"
           />
 
           <span className="hidden text-[0.55rem] uppercase tracking-[0.12em] text-[#888888] sm:block md:text-[0.65rem] md:tracking-[0.14em]">

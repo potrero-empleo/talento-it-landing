@@ -1,5 +1,5 @@
-import potreroLogo from "../../assets/potrero_logo.png";
-import compromisoLogo from "../../assets/Logo Compromiso - Principal.png";
+import potreroLogo from "../../assets/company-logos/potrero_logo.png";
+import compromisoLogo from "../../assets/company-logos/Logo Compromiso - Principal.png";
 import {
   institutionalPartners,
   institutionalPillars,
@@ -52,7 +52,7 @@ const Institutional = () => {
         </div>
 
         <div className="mb-12">
-          <div className="max-w-[760px]">
+          <div className="max-w-190">
             <p className="mb-5 flex items-center gap-3 font-['Chakra_Petch'] text-[0.78rem] uppercase tracking-[0.16em] text-white after:h-px after:w-10 after:bg-white/40 after:content-['']">
               respaldo institucional
             </p>

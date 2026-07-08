@@ -1,4 +1,4 @@
-import potreroEmpleosLogo from "../../assets/company-logos/_potreroempleos.png";
+import potreroEmpleosLogo from "../assets/company-logos/_potreroempleos.png";
 import { quickLinks, contactEmail } from "../../data/contactData";
 
 export default function Footer() {

@@ -1,4 +1,3 @@
-import awsLogo from "../assets/company-logos/aws-svgrepo-com.svg";
 import rappiLogo from "../assets/company-logos/Rappi_logo.svg";
 import bancoGaliciaLogo from "../assets/company-logos/banco-galicia-logo.svg";
 import mercadoLibreLogo from "../assets/company-logos/mercadolibre.svg";
@@ -6,6 +5,7 @@ import despegarLogo from "../assets/company-logos/Despegar.com_logo.svg";
 import ualaLogo from "../assets/company-logos/uala-logo.png";
 import telecomLogo from "../assets/company-logos/Telecom.svg";
 import naranjaXLogo from "../assets/company-logos/NaranjaX-logo.svg";
+import awsLogo from "../assets/company-logos/aws.png";
 
 export const brandLogos = [
   {
