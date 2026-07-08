@@ -77,6 +77,5 @@ export const brandLogos = [
     name: "Telecom",
     url: telecomLogo,
   },
- 
-
+  
 ];
