@@ -9,6 +9,7 @@ import dvdLogo from "../assets/company-logos/ProfileDVD.svg";
 
 export const brandLogos = [
 
+  
   {
    Id: "emplea-habilidad",
     name: "Emplea Habilidad",
