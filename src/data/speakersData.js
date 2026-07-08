@@ -3,6 +3,7 @@ import perfil2 from "../assets/speakers/Perfil2.svg";
 import perfil3 from "../assets/speakers/Perfil3.svg";
 import perfil4 from "../assets/speakers/Perfil4.svg";
 import perfil5 from "../assets/speakers/Perfil5.svg";
+import perfil6 from "../assets/speakers/Perfil6.svg";
 import perfil7 from "../assets/speakers/Perfil7.svg";
 import perfil8 from "../assets/speakers/Perfil8.svg";
 import perfil9 from "../assets/speakers/Perfil9.svg";
@@ -42,7 +43,7 @@ export const speakerProfiles = [
     category: "Workshop",
     role: "Ecosistema IT",
     org: "Primer trabajo en UX por donde empezar",
-    image: perfil5,
+    image: perfil6,
   },
   {
     name: "Axel Labruna",
@@ -78,6 +79,6 @@ export const speakerProfiles = [
     category: "Workshop",
     role: "",
     org: "",
-    image: Perfil9,
+    image: perfil9,
   },
 ];

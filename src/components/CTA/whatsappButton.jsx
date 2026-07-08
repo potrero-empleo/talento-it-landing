@@ -7,7 +7,7 @@ function buildWhatsAppUrl(phone, text) {
   // limitar texto y codificar
   const MAX_LEN = 512;
   const safeText = encodeURIComponent((text || '').slice(0, MAX_LEN));
-  return `https://wa.me/${phone}?text=${safeText}`;
+  return `https://wa.me/${91133484962}?text=${safeText}`;
 }
 
 function WhatsappButton() {

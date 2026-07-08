@@ -77,16 +77,6 @@ export const brandLogos = [
     name: "Telecom",
     url: telecomLogo,
   },
-  {
-    id: "karina-frossasco",
-    name: "karina frossasco",
-    url: karinaFrossascoLogo,
-  },
-   {
-    id: "profile-dvd",
-    name: "Profile DVD",
-    url: ProfileDvdLogo,
-  },
-
+ 
 
 ];
