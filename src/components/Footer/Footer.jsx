@@ -1,4 +1,4 @@
-import potreroEmpleosLogo from "../assets/company-logos/_potreroempleos.png";
+import potreroEmpleosLogo from 'react';
 import { quickLinks, contactEmail } from "../../data/contactData";
 
 export default function Footer() {
@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid gap-10 border border-[#202020] bg-[#111111] px-6 py-8 md:grid-cols-[1.2fr_0.8fr_0.8fr] md:items-start md:px-8 md:py-10">
           <div className="max-w-xl">
             <img
-              src={potreroEmpleosLogo}
+              src={"logos/_potreroempleos.png"}
               alt="Potrero Empleos"
               className="h-8 w-auto max-w-46.25 object-contain sm:h-9 md:h-10"
             />
