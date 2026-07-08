@@ -3,10 +3,7 @@ import { brandLogos } from "../../data/companiesData";
 
 function EmpresasLogos() {
   const sectionRef = useRef(null);
-  const [isActive, setIsActive] = useState(() => {
-    if (typeof window === "undefined") return false;
-    return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  });
+  const [isActive, setIsActive] = useState(false);
 
   useEffect(() => {
     const sectionNode = sectionRef.current;

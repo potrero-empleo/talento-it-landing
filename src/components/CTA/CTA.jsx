@@ -431,7 +431,7 @@ export default function CTA() {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="focus-ring inline-block w-full whitespace-nowrap rounded bg-[#C8D400] px-5 py-3 text-center font-['Chakra_Petch'] text-[0.9rem] font-bold uppercase tracking-wiedr text-[#111111] transition hover:-translate-y-0.5 hover:bg-[#d9e600] disabled:cursor-not-allowed disabled:opacity-70 disabled:hover:translate-y-0 disabled:hover:bg-[#C8D400] md:w-auto md:min-w-61.25"
+                  className="focus-ring inline-block w-full whitespace-nowrap rounded bg-[#C8D400] px-5 py-3 text-center font-['Chakra_Petch'] text-[0.9rem] font-bold uppercase tracking-wider text-[#111111] transition hover:-translate-y-0.5 hover:bg-[#d9e600] disabled:cursor-not-allowed disabled:opacity-70 disabled:hover:translate-y-0 disabled:hover:bg-[#C8D400] md:w-auto md:min-w-61.25"
                 >
                   {isSubmitting ? "Enviando correo..." : "Quiero sumar mi empresa"}
                 </button>

@@ -1,5 +1,4 @@
-import potreroLogo from "../assets/company-logos/potrero_logo.png";
-import compromisoLogo from "../assets/company-logos/Logocompromiso.png";
+import potreroLogo from "../../assets/company-logos/potrero_logo.png";
 import {
   institutionalPartners,
   institutionalPillars,
@@ -9,7 +8,6 @@ import {
 const Institutional = () => {
   const partnerLogos = {
     "potrero-digital": potreroLogo,
-    "fundacion-compromiso": compromisoLogo,
   };
 
   return (
@@ -34,13 +32,17 @@ const Institutional = () => {
                   key={partner.id}
                   className="flex min-h-23 items-center justify-center border border-[#2a2a2a] bg-[#111111] px-6 py-5 transition-all duration-300 hover:border-[#C8D400]/30 hover:bg-[#161616]"
                 >
-                  <img
-                    src={partnerLogos[partner.id]}
-                    alt={partner.name}
-                    className={`h-10 w-auto object-contain opacity-90 transition-opacity duration-300 hover:opacity-100 ${
-                      partner.id === "fundacion-compromiso" ? "max-w-52.5" : "max-w-45"
-                    }`}
-                  />
+                  {partnerLogos[partner.id] ? (
+                    <img
+                      src={partnerLogos[partner.id]}
+                      alt={partner.name}
+                      className="h-10 w-auto max-w-45 object-contain opacity-90 transition-opacity duration-300 hover:opacity-100"
+                    />
+                  ) : (
+                    <span className="font-['Chakra_Petch'] text-[0.85rem] uppercase tracking-widest text-[#d7d7d7]">
+                      {partner.name}
+                    </span>
+                  )}
                 </div>
               ))}
             </div>

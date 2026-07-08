@@ -1,4 +1,4 @@
-import potreroEmpleosLogo from "../../assets/company-logos/_potreroempleos.png";
+import potreroEmpleosLogo from "../../assets/company-logos/potrero_logo.png";
 import { whatsappConfig } from "../../data/contactData";
 
 const Navbar = () => {

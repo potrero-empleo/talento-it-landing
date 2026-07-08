@@ -4,8 +4,7 @@ import mercadoLibreLogo from "../assets/company-logos/mercadolibre.svg";
 import despegarLogo from "../assets/company-logos/Despegar.com_logo.svg";
 import ualaLogo from "../assets/company-logos/uala-logo.png";
 import telecomLogo from "../assets/company-logos/Telecom.svg";
-import naranjaXLogo from "../assets/company-logos/NaranjaX-logo.svg";
-import awsLogo from "../assets/company-logos/aws.png";
+
 
 export const brandLogos = [
   {
@@ -83,4 +82,16 @@ export const brandLogos = [
     name: "Naranja X",
     url: naranjaXLogo,
   },
+   {
+    id: "karina-frossasco",
+    name: "karina frossasco",
+    url: karinaFrossasco,
+  },
+   {
+    id: "profile-dvd",
+    name: "Profile DVD",
+    url: ProfileDVD,
+  },
+
+
 ];

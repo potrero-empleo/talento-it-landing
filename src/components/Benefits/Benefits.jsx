@@ -13,7 +13,7 @@ const Benefits = () => {
                     por qué participar
                 </p>
 
-                <h2 class="mb-5 font-['Chakra_Petch'] text-[clamp(2.05rem,4vw,3.2rem)] font-bold leading- tracking-[0.01em] text-white">
+                <h2 className="mb-5 font-['Chakra_Petch'] text-[clamp(2.05rem,4vw,3.2rem)] font-bold leading-none tracking-[0.01em] text-white">
                     Razones que marcan
                     <br />
                     la diferencia. </h2>

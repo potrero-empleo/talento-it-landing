@@ -14,7 +14,7 @@ export const speakerProfiles = [
     category: "Empleabilidad",
     role: "Referente del ecosistema de empleabilidad",
     org: "",
-    image: Perfil1,
+    image: perfil1,
   },
   {
     name: "SofiJobs",
@@ -42,7 +42,7 @@ export const speakerProfiles = [
     category: "Workshop",
     role: "Ecosistema IT",
     org: "Primer trabajo en UX por donde empezar",
-    image: perfil6,
+    image: perfil5,
   },
   {
     name: "Axel Labruna",
