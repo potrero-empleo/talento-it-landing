@@ -78,11 +78,6 @@ export const brandLogos = [
     url: telecomLogo,
   },
   {
-    id: "naranja-x",
-    name: "Naranja X",
-    url: naranjaXLogo,
-  },
-   {
     id: "karina-frossasco",
     name: "karina frossasco",
     url: karinaFrossascoLogo,
