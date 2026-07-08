@@ -8,6 +8,6 @@ export const quickLinks = [
 export const contactEmail = "potreroempleo@compromiso.org";
 
 export const whatsappConfig = {
-  phone: "5491144781029 ",
+  phone: "5491144781029",
   text: "Hola, me interesa sumar mi empresa a Talento IT. Me podrian dar mas informacion?",
 };
