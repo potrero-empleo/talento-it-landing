@@ -1,61 +1,68 @@
-import empleaHabilidadLogo from "../assets/company-logos/empleaHabilidad.svg";
+import accentureLogo from "../assets/company-logos/accenture.png";
+import asapConsultingLogo from "../assets/company-logos/asap-consulting.avif";
 import desaLogo from "../assets/company-logos/desa.svg";
-import awsLogo from "../assets/company-logos/aws.png";
-import logicalisLogo from "../assets/company-logos/Logicalis.png";
+import eyLogo from "../assets/company-logos/EY.png";
+import jpmLogo from "../assets/company-logos/jpm.png";
 import karinaFrossascoLogo from "../assets/company-logos/KarinaFrossasco.svg";
-import andreaniLogo from "../assets/company-logos/logoAndreani.svg";
-import dvdLogo from "../assets/company-logos/ProfileDVD.svg";
-
+import logicalisLogo from "../assets/company-logos/Logicalis.png";
+import netrixGlobalLogo from "../assets/company-logos/netrix_global.png";
+import qompylLogo from "../assets/company-logos/Qompyl.svg";
+import talentlyLabLogo from "../assets/company-logos/talently-lab.png";
 
 export const brandLogos = [
-
-  
-  {
-    id: "emplea-habilidad",
-    name: "Emplea Habilidad",
-    url: empleaHabilidadLogo,   
-  },
-
-  {
-    id: "desa",
-    name: "Desa",
-    url: desaLogo,
-  },
-
-  {
-    id: "aws",
-    name: "aws",
-    url: awsLogo,
-  },
-  
-  {
-    id: "google",
-    name: "Google",
-    url: "https://www.vectorlogo.zone/logos/google/google-icon.svg",
-  },
-  
-  {
-    id: "profileDVD",
-    name: "Profile DVD",
-    url: dvdLogo,
-  },
-
   {
     id: "karina-frossasco",
-    name: "Karina Frossasco",
+    name: "Consultora Karina Frossasco",
     url: karinaFrossascoLogo,
   },
-
   {
-    id: "andreani",
-    name: "Andreani",
-    url: andreaniLogo,  
+    id: "accenture",
+    name: "Accenture",
+    url: accentureLogo,
   },
-
   {
-    id: "logicalis",
-    name: "Logicalis",
+    id: "logicalis-latam",
+    name: "Logicalis LATAM",
     url: logicalisLogo,
   },
-  
+  {
+    id: "desa-edea",
+    name: "DESA/EDEA",
+    url: desaLogo,
+  },
+  {
+    id: "netrix-global",
+    name: "Netrix Global",
+    url: netrixGlobalLogo,
+  },
+  {
+    id: "qompyl-inc",
+    name: "Qompyl Inc",
+    url: qompylLogo,
+  },
+  {
+    id: "alephdigital",
+    name: "Alephdigital",
+    url: null,
+  },
+  {
+    id: "ey",
+    name: "EY",
+    url: eyLogo,
+  },
+  {
+    id: "jpm",
+    name: "JPM",
+    url: jpmLogo,
+  },
+  {
+    id: "asap-consulting",
+    name: "ASAP consulting",
+    url: asapConsultingLogo,
+  },
+  {
+    id: "talently-lab",
+    name: "Talently Lab",
+    url: talentlyLabLogo,
+  },
 ];

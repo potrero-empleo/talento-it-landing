@@ -33,7 +33,9 @@ function EmpresasLogos() {
       <div className="layout-container">
         <div className="mb-16 text-center">
           <h2 className="mb-6 font-['Chakra_Petch'] text-2xl font-semibold tracking-tight text-[#6d6d6d] md:text-4xl lg:text-[2.65rem]">
-            <span className="company-count-highlight font-bold">+25</span>{" "}
+            <span className="company-count-highlight font-bold">
+              +{brandLogos.length}
+            </span>{" "}
             <span className="font-bold text-[#7c7c7c]">empresas</span>
           </h2>
           <p className="mx-auto max-w-4xl text-[1rem] leading-[1.8] text-[#d7d7d7] lg:text-lg">
@@ -51,12 +53,18 @@ function EmpresasLogos() {
               }`}
               style={{ transitionDelay: `${index * 55}ms` }}
             >
-              <img
-                src={logo.url}
-                alt={logo.name}
-                loading="lazy"
-                className="h-12 w-auto max-w-full object-contain opacity-100 transition-transform duration-300 hover:scale-[1.03]"
-              />
+              {logo.url ? (
+                <img
+                  src={logo.url}
+                  alt={logo.name}
+                  loading="lazy"
+                  className="h-12 w-auto max-w-full object-contain opacity-100 transition-transform duration-300 hover:scale-[1.03]"
+                />
+              ) : (
+                <span className="text-center font-['Chakra_Petch'] text-[0.9rem] uppercase tracking-[0.08em] text-[#d7d7d7] transition-transform duration-300 hover:scale-[1.03]">
+                  {logo.name}
+                </span>
+              )}
             </div>
           ))}
         </div>
