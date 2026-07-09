@@ -55,7 +55,7 @@ function EmpresasLogos() {
                 src={logo.url}
                 alt={logo.name}
                 loading="lazy"
-                className="h-12 w-auto max-w-full object-contain grayscale opacity-80 transition-all duration-300 hover:grayscale-0 hover:opacity-100"
+                className="h-12 w-auto max-w-full object-contain opacity-100 transition-transform duration-300 hover:scale-[1.03]"
               />
             </div>
           ))}
