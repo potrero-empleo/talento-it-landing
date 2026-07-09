@@ -1,7 +1,3 @@
-export const confirmedCompanies = [
-  "Accenture",
-  "Globant",
-  "Mercado Libre",
-  "IBM",
-  "Telecom",
-];
+import { brandLogos } from "./companiesData";
+
+export const confirmedCompanies = brandLogos.map((company) => company.name);
