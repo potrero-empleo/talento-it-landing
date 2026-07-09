@@ -5,7 +5,7 @@ export const quickLinks = [
   { href: "#inscribite", label: "Contacto" },
 ];
 
-export const contactEmail = "potreroempleo@compromiso.org";
+export const contactEmail = "potreroempleos@compromiso.org";
 
 export const whatsappConfig = {
   phone: "5491144781029",
