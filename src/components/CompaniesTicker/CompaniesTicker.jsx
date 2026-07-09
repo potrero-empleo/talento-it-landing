@@ -58,7 +58,9 @@ function EmpresasLogos() {
                   src={logo.url}
                   alt={logo.name}
                   loading="lazy"
-                  className="h-12 w-auto max-w-full object-contain opacity-100 transition-transform duration-300 hover:scale-[1.03]"
+                  className={`h-12 w-auto max-w-full object-contain opacity-100 transition-transform duration-300 hover:scale-[1.03] ${
+                    logo.imageClassName ?? ""
+                  }`}
                 />
               ) : (
                 <span className="text-center font-['Chakra_Petch'] text-[0.9rem] uppercase tracking-[0.08em] text-[#d7d7d7] transition-transform duration-300 hover:scale-[1.03]">

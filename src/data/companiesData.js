@@ -14,6 +14,7 @@ export const brandLogos = [
     id: "karina-frossasco",
     name: "Consultora Karina Frossasco",
     url: karinaFrossascoLogo,
+    imageClassName: "h-14 md:h-15",
   },
   {
     id: "accenture",
@@ -29,6 +30,7 @@ export const brandLogos = [
     id: "desa-edea",
     name: "DESA/EDEA",
     url: desaLogo,
+    imageClassName: "h-13 md:h-14",
   },
   {
     id: "netrix-global",
@@ -39,6 +41,7 @@ export const brandLogos = [
     id: "qompyl-inc",
     name: "Qompyl Inc",
     url: qompylLogo,
+    imageClassName: "h-13 md:h-14",
   },
   {
     id: "alephdigital",
