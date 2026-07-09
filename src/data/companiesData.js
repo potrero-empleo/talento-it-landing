@@ -1,4 +1,4 @@
-import empleahabilidadLogo from "../assets/company-logos/empleaHabilidad.svg";
+import empleaHabilidadLogo from "../assets/company-logos/empleaHabilidad.svg";
 import desaLogo from "../assets/company-logos/desa.svg";
 import awsLogo from "../assets/company-logos/aws.png";
 import logicalisLogo from "../assets/company-logos/Logicalis.png";
@@ -11,7 +11,7 @@ export const brandLogos = [
 
   
   {
-   Id: "emplea-habilidad",
+    id: "emplea-habilidad",
     name: "Emplea Habilidad",
     url: empleaHabilidadLogo,   
   },
@@ -37,7 +37,7 @@ export const brandLogos = [
   {
     id: "profileDVD",
     name: "Profile DVD",
-    url: "ProfileDVD.svg",
+    url: dvdLogo,
   },
 
   {

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { confirmedCompanies } from "../../data/heroData";
+import accentureLogo from "../../assets/company-logos/accenture_blanco.png";
 
 const Hero = () => {
   const [currentCompanyIndex, setCurrentCompanyIndex] = useState(0);
@@ -74,7 +75,7 @@ const Hero = () => {
                 className="focus-ring inline-flex w-full max-w-md flex-col items-center justify-center rounded-md border border-[#272727] bg-[#0f0f0f] px-6 py-3 hover:border-[#C8D400]/30"
               >
                 <img
-                  src="src/assets/company-logos/accenture_blanco.png"
+                  src={accentureLogo}
                   alt="Accenture"
                   className="w-full max-w-55 h-auto object-contain"
                   loading="lazy"

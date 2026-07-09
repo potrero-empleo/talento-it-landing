@@ -1,4 +1,5 @@
 import potreroLogo from "../../assets/company-logos/potrero_logo.png";
+import compromisoLogo from "../../assets/company-logos/compromisologo.png";
 import {
   institutionalPartners,
   institutionalPillars,
@@ -8,6 +9,7 @@ import {
 const Institutional = () => {
   const partnerLogos = {
     "potrero-digital": potreroLogo,
+    "fundacion-compromiso": compromisoLogo,
   };
 
   return (
