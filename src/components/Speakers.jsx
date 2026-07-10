@@ -126,7 +126,8 @@ export default function Speakers() {
     return () => observer.disconnect();
   }, []);
 
-  const scrollByPage = (direction = 1) => {
+  const scrollByPage = (direction = 1, options = {}) => {
+    const { allowLoop = false } = options;
     const el = carouselRef.current;
     if (!el) return;
     const first = el.firstElementChild;
@@ -138,12 +139,16 @@ export default function Speakers() {
     const nextScrollLeft = el.scrollLeft + amount;
 
     if (direction > 0 && nextScrollLeft >= maxScrollLeft - 10) {
-      el.scrollTo({ left: 0, behavior: "smooth" });
+      if (allowLoop) {
+        el.scrollTo({ left: 0, behavior: "auto" });
+      } else {
+        el.scrollTo({ left: maxScrollLeft, behavior: "smooth" });
+      }
       return;
     }
 
     if (direction < 0 && nextScrollLeft <= 10) {
-      el.scrollTo({ left: maxScrollLeft, behavior: "smooth" });
+      el.scrollTo({ left: 0, behavior: "smooth" });
       return;
     }
 
@@ -155,7 +160,7 @@ export default function Speakers() {
     if (prefersReducedMotion || isPaused || !isInView) return undefined;
 
     autoplayRef.current = setInterval(() => {
-      if (!pauseRef.current) scrollByPage(1);
+      if (!pauseRef.current) scrollByPage(1, { allowLoop: true });
     }, 3000);
 
     return () => clearInterval(autoplayRef.current);
