@@ -22,7 +22,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative flex min-h-screen flex-col justify-end overflow-hidden bg-[#111111] pb-20 pt-24 md:pt-40"
+      className="relative flex min-h-screen flex-col justify-center overflow-hidden bg-[#111111] pb-18 pt-22 md:pb-20 md:pt-30"
       style={{ scrollMarginTop: "96px" }}
     >
       <div className="absolute inset-0 opacity-50">
@@ -37,19 +37,17 @@ const Hero = () => {
 
           <span className="font-['Chakra_Petch'] text-[0.78rem] uppercase tracking-[0.08em] text-[#aaaaaa]">
             <strong className="text-white">{currentCompany}</strong>{" "}
-            ya confirmó su participación — sumá tu empresa
+            ya confirmo su participacion - suma tu empresa
           </span>
         </div>
 
         <h1 className="mb-9 font-['Chakra_Petch'] text-[clamp(3rem,7vw,5.6rem)] font-bold leading-[0.9] tracking-[0.01em] text-white">
-          {/* Mobile */}
           <span className="block md:hidden">
-            Encontrá el <span className="text-[#C8D400]">talento IT</span>
+            Encontra el <span className="text-[#C8D400]">talento IT</span>
             <br />
-            que buscás.
+            que buscas.
           </span>
 
-          {/* Desktop */}
           <span className="hidden md:block">
             <span className="block">El Talento IT</span>
             <span className="block">de Argentina</span>
@@ -58,14 +56,25 @@ const Hero = () => {
         </h1>
 
         <div className="mt-4 grid items-end gap-10 md:gap-12 md:grid-cols-2">
-          <p className="max-w-120 text-[1.1rem] leading-[1.75] text-[#aaaaaa]">
-            Talento IT conecta a tu empresa con cientos de perfiles IT formados,
-            motivados y listos para sumarse a tu equipo desde cualquier provincia
-            de Argentina, sin costo y sin fricción.
-          </p>
+          <div>
+            <div className="mb-6 inline-flex flex-wrap items-center gap-3 border border-[#2a2a2a] bg-[#151515]/92 px-4 py-3">
+              <span className="font-['Chakra_Petch'] text-[0.74rem] uppercase tracking-[0.18em] text-[#a9a9a9]">
+                Feria virtual
+              </span>
+              <span className="hidden h-4 w-px bg-[#343434] md:block" />
+              <span className="font-['Chakra_Petch'] text-[0.95rem] font-semibold uppercase tracking-[0.12em] text-white md:text-[1rem]">
+                Del 3 al 7 de agosto
+              </span>
+            </div>
+
+            <p className="max-w-120 text-[1.1rem] leading-[1.75] text-[#aaaaaa]">
+              Talento IT conecta a tu empresa con cientos de perfiles IT formados,
+              motivados y listos para sumarse a tu equipo desde cualquier provincia
+              de Argentina, sin costo y sin friccion.
+            </p>
+          </div>
 
           <div className="flex flex-col items-stretch gap-4 md:items-center">
-            {/* Sponsor encima de los CTAs — mismo ancho que los botones */}
             <div className="mb-4 w-full flex items-center justify-center">
               <a
                 href="https://www.accenture.com/ar-es"
@@ -77,16 +86,15 @@ const Hero = () => {
                 <img
                   src={accentureLogo}
                   alt="Accenture"
-                  className="w-full max-w-55 h-auto object-contain"
+                  className="h-auto w-full max-w-55 object-contain"
                   loading="lazy"
                 />
-                <span className="mt-2 text-[0.78rem] text-[#aaaaaa] text-center">
-                  Aliado estratégico
+                <span className="mt-2 text-center text-[0.78rem] text-[#aaaaaa]">
+                  Aliado estrategico
                 </span>
               </a>
             </div>
 
-            {/* Botones: match width del sponsor (max-w-md). En móvil son full-width */}
             <div className="w-full max-w-md flex flex-col items-stretch gap-4 md:items-end">
               <a
                 href="#inscribite"
