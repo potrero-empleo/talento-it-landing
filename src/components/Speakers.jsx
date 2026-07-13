@@ -35,7 +35,7 @@ function SpeakerCard({ person }) {
       <div className="absolute left-0 top-0 h-0.5 w-0 bg-[#C8D400] transition-all duration-300 group-hover:w-full" />
 
       {/* avatar */}
-      <div className="mb-5 flex h-24 w-24 items-center justify-center overflow-hidden rounded-full border border-[#2d2d2d] bg-[#151515] transition-colors duration-300 group-hover:border-[#C8D400]/30 md:mb-6 md:h-28 md:w-28">
+      <div className="mb-5 flex h-full w-full items-center justify-center overflow-hidden rounded-full border border-[#2d2d2d] bg-[#151515] transition-colors duration-300 group-hover:border-[#C8D400]/30 md:mb-6 md:h-28 md:w-28">
         <Avatar name={person.name} src={person.image} altText={`${person.name} — ${person.role} en ${person.org}`} />
       </div>
 
@@ -197,14 +197,6 @@ export default function Speakers() {
           <div className="hidden md:flex items-center gap-3">
             <button aria-label="Anterior" onClick={() => scrollByPage(-1)} disabled={!canPrev} className="focus-ring h-10 w-10 rounded-full border border-[#272727] bg-white/5 text-[#d8d8d8] transition-all duration-200 hover:-translate-y-0.5 hover:border-[#C8D400]/60 hover:bg-[#C8D400]/10 hover:text-[#C8D400] disabled:opacity-40 disabled:hover:translate-y-0 disabled:hover:border-[#272727] disabled:hover:bg-white/5 disabled:hover:text-[#d8d8d8]">‹</button>
             <button aria-label="Siguiente" onClick={() => scrollByPage(1)} disabled={!canNext} className="focus-ring h-10 w-10 rounded-full border border-[#272727] bg-white/5 text-[#d8d8d8] transition-all duration-200 hover:-translate-y-0.5 hover:border-[#C8D400]/60 hover:bg-[#C8D400]/10 hover:text-[#C8D400] disabled:opacity-40 disabled:hover:translate-y-0 disabled:hover:border-[#272727] disabled:hover:bg-white/5 disabled:hover:text-[#d8d8d8]">›</button>
-            <button
-              type="button"
-              onClick={togglePause}
-              className="focus-ring rounded-full border border-[#272727] bg-white/5 px-4 py-2 text-[0.72rem] font-medium uppercase tracking-[0.08em] text-[#d8d8d8] transition-all duration-200 hover:border-[#C8D400]/60 hover:bg-[#C8D400]/10 hover:text-[#C8D400]"
-              aria-pressed={isPaused}
-            >
-              {isPaused ? "Reanudar" : "Pausar"}
-            </button>
           </div>
         </div>
 
